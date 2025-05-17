@@ -1,0 +1,54 @@
+/* Navbar container */
+.nav {
+  width: 100%;
+  position: fixed;
+  top: 1rem;
+  left: 27rem;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 2rem;
+  z-index: 1000;
+}
+
+/* Logo container */
+.nav-logo {
+  position: absolute;
+  top: 1rem;
+  left: -22rem; 
+  height: 70%;
+  display: flex;
+  align-items: center;
+}
+
+/* Logo image */
+.logo-img {
+  height: 140px; 
+  width: auto;
+  object-fit: contain;
+}
+
+.nav-list {
+  display: flex;
+  gap: 2.6rem;
+  list-style: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: goldenrod;
+  font-size: 1.2rem;
+  font-weight: var(--weight-600);
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover,
+.active-nav {
+  color: darkgoldenrod;
+};
+
+.nav-name,
+.nav-icon,
+.nav-close,
+.nav-toggle {
+  display: none; /* completely removed for this version */
+}
