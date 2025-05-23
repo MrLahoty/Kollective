@@ -1,7 +1,7 @@
 import "./about.css";
 import AboutImg from "../../assets/homes1.png";
 import { useInView } from "react-intersection-observer";
-import logosssss from "../../assets/homes1.png"
+import logosssss from "../../assets/homes1.png";
 
 const About = () => {
   const { ref, inView } = useInView({

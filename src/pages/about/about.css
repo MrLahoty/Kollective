@@ -61,12 +61,12 @@
   font-weight: 800;
   margin-bottom: 2rem;
   margin-top: 17px;
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'Outfit', sans-serif;
 }
 
 .about__heading span {
   font-weight: 400;
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'Outfit', sans-serif;
 }
 
 .about__paragraph {
@@ -118,6 +118,7 @@
 
 /* Responsive */
 @media screen and (max-width: 768px) {
+  
   .about-section {
     grid-template-columns: 1fr;
     text-align: center;

@@ -1,4 +1,87 @@
-/* Logo image */
+/* Footer.css */
+.footer {
+  background-color: #111827; /* dark gray/blue */
+  color: #d1d5db; /* light gray */
+  padding: 40px 20px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.footer-description {
+  font-size: 0.9rem;
+  color: #9ca3af;
+}
+
+.footer-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.footer-links,
+.footer-contact {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li,
+.footer-contact li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  color: #d1d5db;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+  color: #ffffff;
+}
+
+.footer-social a {
+  font-size: 1.5rem;
+  margin-right: 10px;
+  color: #d1d5db;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+  color: #ffffff;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.85rem;
+  color: #6b7280;
+  border-top: 1px solid #374151;
+  padding-top: 15px;
+}
+
+/* Logo image
 .logo-imgs {
   height: 170px; 
   width: auto;
@@ -6,7 +89,6 @@
 }
 
 footer {
-  height: auto; /* Adjust the height as needed */
   padding: 2vmax;
   background-color: whitesmoke;
   display: flex;
@@ -133,12 +215,12 @@ margin-bottom: 40px;
   padding: 5px 10px;
   border-radius: 4px;
   transition: background-color 0.3s ease, color 0.3s ease, text-decoration 0.3s ease;
-  display: flex; /* To align icon and text horizontally */
-  align-items: center; /* Center-align icon and text */
+  display: flex; 
+  align-items: center; 
 }
 
 .footer-center a i {
-  margin-right: 8px; /* Space between icon and text */
+  margin-right: 8px; 
 }
 
 .footer-center a:hover {
@@ -147,7 +229,7 @@ margin-bottom: 40px;
 }
 
 .footer-center a:hover i {
-  color: #fff; /* Ensures icon color matches text color on hover */
+  color: #fff; 
 }
 
 .copyrights {
@@ -162,16 +244,16 @@ margin-bottom: 40px;
   font-size: 16px;
   letter-spacing: 0.5px;
   margin: 0;
-  padding: 2px 5px; /* Added padding for better text spacing */
+  padding: 2px 5px; 
   transition: background-color 0.3s ease, color 0.3s ease; 
   cursor: pointer;
-  display: inline-block; /* Make sure the background color only covers the text */
+  display: inline-block; 
 }
 
 .copyrights h6:hover {
-  background-color: #A1A1E1; /* Blue background on hover */
-  color: #fff; /* White text on hover */
-  padding: 5px 6px; /* Ensure padding remains consistent on hover */
+  background-color: #A1A1E1; 
+  color: #fff; 
+  padding: 5px 6px; 
 }
 
 .footer-right {
@@ -208,24 +290,24 @@ margin-bottom: 40px;
   align-items: center;
   justify-content: center;
   transition: transform 0.3s ease, color 0.3s ease, font-size 0.3s ease, background-color 0.3s ease;
-  font-size: 25px; /* Default icon size */
+  font-size: 25px; 
   gap: 7px;
-  background-color: whitesmoke; /* Matches the footer background color */
-  padding: 5px; /* Adjust padding as needed */
+  background-color: whitesmoke; 
+  padding: 5px;
   margin-top: 5px;
 }
 
 .footer-right a:hover {
-  background-color: whitesmoke; /* Keeps the same background color on hover */
-  transform: scale(1.05); /* Slightly increase the size */
+  background-color: whitesmoke; 
+  transform: scale(1.05); 
 }
 
 .footer-right a svg {
   transition: transform 0.3s ease;
-  color: #2c2c2c; /* Ensure the icon color is consistent */
+  color: #2c2c2c; 
 }
 
 .footer-right a:hover svg {
-  transform: rotate(20deg); /* Add a slight rotation effect on hover */
-  color: #2c2c2c; /* Ensure the icon color remains consistent on hover */
-}
+  transform: rotate(20deg); 
+  color: #2c2c2c; 
+} */

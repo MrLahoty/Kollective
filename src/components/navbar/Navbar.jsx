@@ -2,7 +2,7 @@ import { links } from "../../Data";
 import { NavLink } from "react-router";
 import './navbar.css';
 import { useState } from "react";
-import logo from '../../assets/KOLLECTIVE EVENTS2-0111.png'; // Adjust path if needed
+import logo from '../../assets/KOLLECTIVE EVENTS2-0111.png';
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
