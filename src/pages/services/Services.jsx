@@ -13,8 +13,8 @@ const services = [
   {
     title: "LARGE FORMAT EVENTS",
     icon: "🪧",
-    color: "orange",
-    textColor: "black",
+    color: "black",
+    textColor: "orange",
   },
   {
     title: "MICE",
@@ -25,8 +25,8 @@ const services = [
   {
     title: "BRAND COMMUNICATION & ADVERTISING",
     icon: "📢",
-    color: "orange",
-    textColor: "black",
+    color: "black",
+    textColor: "orange",
   },
   {
     title: "LIFESTYLE EVENTS",

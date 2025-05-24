@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { RiSendPlaneLine } from "react-icons/ri";
 import "./home.css";
-import image from "../../assets/Background.jpg";
+import image from "../../assets/3.jpg";
 import scrollGif from "../../assets/scroll-down.gif";
 import About from "../about/About";
 import Portfolio from "../portfolio/Portfolio";
@@ -51,7 +51,7 @@ useEffect(() => {
 
           <div className="hero-content fade-in">
             <h1 className="hero-title">
-              Designing a <br /> <span>Better World</span> Today
+              Designing a Better<br />  <span> World</span> Today
             </h1>
             <p className="hero-description">
               Welcome to our world of endless imagination and boundless creativity.
