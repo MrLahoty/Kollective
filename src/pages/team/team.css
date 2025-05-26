@@ -176,3 +176,88 @@
     transform: translateY(0);
   }
 }
+/* Responsive Adjustments */
+@media screen and (max-width: 1024px) {
+  .broken-grid-heading {
+    font-size: 2.5rem;
+  }
+
+  .flip-card {
+    height: 280px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .broken-grid-heading {
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .broken-grid-container {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 2rem;
+  }
+
+  .flip-card {
+    max-width: 180px;
+    height: 260px;
+  }
+
+  .flip-card-back h3 {
+    font-size: 1rem;
+  }
+
+  .flip-card-back p {
+    font-size: 0.75rem;
+  }
+
+  .view-more-button {
+    padding: 0.6rem 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  .team-text h3 {
+    font-size: 1rem;
+  }
+
+  .team-text p {
+    font-size: 0.75rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .broken-grid-heading {
+    font-size: 1.6rem;
+  }
+
+  .broken-grid-container {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .flip-card {
+    max-width: 100%;
+    height: 240px;
+  }
+
+  .flip-card-back h3 {
+    font-size: 0.95rem;
+  }
+
+  .flip-card-back p {
+    font-size: 0.7rem;
+  }
+
+  .team-text h3 {
+    font-size: 0.95rem;
+  }
+
+  .team-text p {
+    font-size: 0.7rem;
+  }
+
+  .view-more-button {
+    padding: 0.5rem 1.2rem;
+    font-size: 0.85rem;
+  }
+}

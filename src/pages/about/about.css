@@ -116,28 +116,68 @@
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
 }
 
-/* Responsive */
+/* Add this to your existing about.css */
+
+/* General improvements for smaller screens */
 @media screen and (max-width: 768px) {
-  
+  .about-section.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
   .about-section {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about__text {
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .about__heading {
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .about__paragraph {
     text-align: center;
   }
 
-  .about__quote {
+  .about__image-container {
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
     justify-content: center;
-    flex-direction: column;
-    text-align: center;
   }
 
   .about__img {
-    width: 80%;
-    margin: 2rem auto 0;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-right: 0;
+  }
+}
+
+/* Extra refinements for very small screens */
+@media screen and (max-width: 420px) {
+  .about__heading {
+    font-size: 1.5rem;
   }
 
-  .animate-slideIn,
-  .animate-dropIn {
-    animation: none !important;
-    opacity: 1 !important;
+  .about__paragraph {
+    font-size: 0.9rem;
+    padding: 0 0.5rem;
+  }
+
+  .about__quote {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about__quote-img {
+    width: 42px;
+    height: 42px;
   }
 }

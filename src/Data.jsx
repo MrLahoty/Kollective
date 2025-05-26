@@ -266,13 +266,6 @@ export const resume = [
   },
 ];
 
-
-import projectImg1 from './assets/project-1.jpg';
-import projectImg2 from './assets/project-2.jpg';
-import projectImg3 from './assets/project-3.jpg';
-import projectImg4 from './assets/project-4.jpg';
-import projectImg5 from './assets/project-5.jpg';
-
 export const portfolio = [
   {
     id: 1,
@@ -313,39 +306,39 @@ export const portfolio = [
 
 
 
-import Theme1 from './assets/red.png';
-import Theme2 from './assets/blueviolet.png';
-import Theme3 from './assets/blue.png';
-import Theme4 from './assets/magenta.png';
-import Theme5 from './assets/yellowgreen.png';
+// import Theme1 from './assets/red.png';
+// import Theme2 from './assets/blueviolet.png';
+// import Theme3 from './assets/blue.png';
+// import Theme4 from './assets/magenta.png';
+// import Theme5 from './assets/yellowgreen.png';
 import Theme6 from './assets/orange.png';
 import Theme7 from './assets/yellow.png';
 
 export const themes = [
-  {
-    img: Theme1,
-    hue: '4',
-  },
+  // {
+  //   img: Theme1,
+  //   hue: '4',
+  // },
 
-  {
-    img: Theme2,
-    hue: '271',
-  },
+  // {
+  //   img: Theme2,
+  //   hue: '271',
+  // },
 
-  {
-    img: Theme3,
-    hue: '225',
-  },
+  // {
+  //   img: Theme3,
+  //   hue: '225',
+  // },
 
-  {
-    img: Theme4,
-    hue: '339',
-  },
+  // {
+  //   img: Theme4,
+  //   hue: '339',
+  // },
 
-  {
-    img: Theme5,
-    hue: '80',
-  },
+  // {
+  //   img: Theme5,
+  //   hue: '80',
+  // },
 
   {
     img: Theme6,
