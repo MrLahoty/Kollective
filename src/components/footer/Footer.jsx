@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import logo from "../../assets/KOLLECTIVE EVENTS2-0111.png";
 import { NavLink } from "react-router";
-import "./Footer.css";
+import "./footer.css";
 import {
   FaInstagram,
   FaWhatsapp,
