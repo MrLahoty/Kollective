@@ -1,13 +1,25 @@
 import { links } from "../../Data";
-import { NavLink, useNavigate } from "react-router-dom";
+import { NavLink, useNavigate, useLocation } from "react-router-dom";
 import "./navbar.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { RiMenu2Fill, RiCloseLine } from "react-icons/ri";
 import logo from "../../assets/KOLLECTIVE EVENTS2-0111.png";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
+  const [iconColor, setIconColor] = useState("white");
   const navigate = useNavigate();
+  const location = useLocation();
+
+  // Update icon color based on current route
+  useEffect(() => {
+    const whiteBackgroundRoutes = ["/about", "/portfolio", "/contact", "/services"];
+    if (whiteBackgroundRoutes.includes(location.pathname)) {
+      setIconColor("black");
+    } else {
+      setIconColor("white");
+    }
+  }, [location.pathname]);
 
   const handleClose = () => {
     setShowMenu(false);
@@ -23,14 +35,24 @@ const Navbar = () => {
         </NavLink>
       </div>
 
-      {/* Menu Toggle Icon - Always visible */}
-      <div className="menu-toggle-icon" onClick={() => setShowMenu(!showMenu)}>
-        {showMenu ? <div className="menu-close-icon"><RiCloseLine /></div> : <RiMenu2Fill />}
+      {/* Menu Toggle Icon */}
+      <div
+        className="menu-toggle-icon"
+        style={{ color: iconColor }}
+        onClick={() => setShowMenu(!showMenu)}
+      >
+        {showMenu ? (
+          <div className="menu-close-icon" style={{ color: iconColor }}>
+            <RiCloseLine />
+          </div>
+        ) : (
+          <RiMenu2Fill />
+        )}
       </div>
 
+      {/* Fullscreen Menu */}
       {showMenu && (
         <div className="unified-menu">
-          {/* Logo inside fullscreen menu */}
           <div className="menu-logo">
             <img src={logo} alt="Kollective Events Logo" />
           </div>

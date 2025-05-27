@@ -162,7 +162,7 @@
 /* Extra refinements for very small screens */
 @media screen and (max-width: 420px) {
   .about__heading {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 
   .about__paragraph {
