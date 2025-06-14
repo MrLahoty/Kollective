@@ -23,7 +23,7 @@ const Portfolio = () => {
       description:
         "End-to-end corporate event planning, including conferences, product launches, and team-building experiences.",
       img: "https://woyago.com/wp-content/uploads/2021/11/corporate-event.webp",
-      link: "/portfolio/CorporateEvents",
+      link: "/corporateEvents",
     },
     {
       id: 2,
@@ -31,7 +31,7 @@ const Portfolio = () => {
       description:
         "Massive stage setups, crowd engagement, and technical coordination for grand experiences.",
       img: "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-      link: "/portfolio/LargeFormateEvent",
+      link: "/largeFormateEvent",
     },
     {
       id: 3,
@@ -39,7 +39,7 @@ const Portfolio = () => {
       description:
         "Specialized services for Meetings, Incentives, Conferences, and Exhibitions with detailed planning.",
       img: "https://pelatihan-bisnis.com/wp-content/uploads/2022/03/Meeting-Incentive-Convention-Exhibition.jpg",
-      link: "/portfolio/Mice",
+      link: "/mice",
     },
     {
       id: 4,
@@ -47,7 +47,7 @@ const Portfolio = () => {
       description:
         "Engaging brand activation campaigns and multimedia promotional strategies.",
       img: "https://thestrategystory.com/wp-content/uploads/2021/04/Chanel-the-chanel-iconic-Spring-21-handbags-ad-The-Impression-002-1024x668@2x.jpeg",
-      link: "/portfolio/Brand",
+      link: "/brand",
     },
     {
       id: 5,
@@ -55,7 +55,7 @@ const Portfolio = () => {
       description:
         "Luxury and style-driven events including fashion shows, art expos, and exclusive parties.",
       img: "https://lifestyle.events/wp-content/uploads/homepage.slide_.TRI_.color_.jpg",
-      link: "/portfolio/Lifestyle",
+      link: "/lifestyle",
     },
   ];
 

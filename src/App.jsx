@@ -83,11 +83,11 @@ const App = () => {
         { path: "/website", element: <Website /> },
         { path: "/max", element: <Max /> },
 
-        { path: "/portfolio/CorporateEvents", element: <CorporateEvents /> },
-         { path: "/portfolio/LargeFormateEvent", element: <LargeFormateEvent /> },
-          { path: "/portfolio/Mice", element: <Mice /> },
-          { path: "/portfolio/Brand", element: <Brand /> },
-           { path: "/portfolio/Lifestyle", element: <Lifestyle /> },
+        { path: "/corporateEvents", element: <CorporateEvents /> },
+         { path: "/largeFormateEvent", element: <LargeFormateEvent /> },
+          { path: "/mice", element: <Mice /> },
+          { path: "/brand", element: <Brand /> },
+           { path: "/lifestyle", element: <Lifestyle /> },
 
       ],
     },
