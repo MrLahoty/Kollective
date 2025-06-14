@@ -1,0 +1,325 @@
+/* Hero Section */
+.portfolio-hero {
+  padding: 10rem 2rem 4rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  font-family: 'Outfit', sans-serif;
+}
+.breadcrumb {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  color: #aaa;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+  position: relative;
+  z-index: 2;
+}
+
+.breadcrumb-link {
+  color: #aaa;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.breadcrumb-link:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+
+.hero-titles {
+  font-size: 3.5rem;
+  line-height: 1.2;
+  font-weight: 600;
+  color: #111;
+}
+
+.hero-titles .highlight {
+  color: #000;
+  font-weight: 700;
+}
+
+.our-works-link {
+  display: inline-block;
+  margin-top: 2rem;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #111;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.our-works-link:hover {
+  transform: translateY(4px);
+}
+
+.down-arrow {
+  margin-left: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.portfolio-hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 200px;
+  height: 200px;
+  background-image: url('https://www.freepik.com/free-vector/geometric-triangle-pattern-illustration_3895814.htm');
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.05;
+}
+
+/* Container styles */
+.portfolio-section {
+  padding: 6rem 2rem 8rem;
+  background: #fff;
+  font-family: 'Outfit', sans-serif;
+}
+
+.portfolio-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  padding-bottom: 4rem;
+}
+
+/* Row */
+.portfolio-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+  flex-wrap: wrap;
+}
+
+/* Column base styles */
+.portfolio-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 100%;
+  overflow: hidden;
+  margin-bottom: 3rem;
+}
+
+/* Base styles for all portfolio images */
+.portfolio-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  max-height: 80vh;
+}
+
+/* Small column images */
+.portfolio-column.small .portfolio-img {
+  aspect-ratio: 3 / 4;
+}
+
+/* Big column images */
+.portfolio-column.big .portfolio-img {
+  aspect-ratio: 4 / 3;
+}
+
+/* Text styles */
+.portfolio-text {
+  text-align: left;
+}
+
+.portfolio-meta {
+  font-size: 0.9rem;
+  color: orange;
+  text-transform: uppercase;
+  margin-bottom: 0.3rem;
+}
+
+.portfolio-text h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #111;
+  margin: 0;
+}
+
+/* CTA Section */
+.portfolio-cta {
+  background-color: #f6f6f6;
+  padding: 6rem 2rem;
+  text-align: center;
+  font-family: 'Outfit', sans-serif;
+}
+
+.cta-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cta-subtext {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.cta-content h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #111;
+  margin-bottom: 2rem;
+}
+
+.cta-content h2 strong {
+  font-weight: 800;
+}
+
+.cta-content h2 span {
+  display: inline-block;
+  margin-top: 0.3rem;
+}
+
+.cta-button {
+  background-color: orange;
+  color: #000;
+  text-transform: uppercase;
+  padding: 1rem 2.5rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 999px;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.cta-button:hover {
+  transform: translateY(-3px);
+}
+
+.cta-button .arrow {
+  margin-left: 0.5rem;
+  font-size: 1.2rem;
+}
+
+/* AOS custom animation */
+@keyframes popUp {
+  0% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+[data-aos="pop-up"] {
+  opacity: 0;
+  transform: scale(0.95);
+}
+
+[data-aos="pop-up"].aos-animate {
+  animation: popUp 0.6s ease-in-out forwards;
+}
+
+@media (max-width: 1024px) {
+  .hero-titles {
+    font-size: 2.8rem;
+  }
+
+  .portfolio-row {
+    flex-direction: column;
+    padding-inline: 1rem; /* Add horizontal padding */
+  }
+
+  .portfolio-img {
+    max-height: 70vh;
+  }
+
+  .portfolio-text {
+    padding-inline: 1rem; /* Add horizontal padding to text */
+  }
+
+  .cta-content h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .portfolio-hero {
+    padding: 6rem 1.5rem 3rem;
+  }
+
+  .hero-titles {
+    font-size: 2.2rem;
+  }
+
+  .portfolio-container {
+    gap: 3rem;
+    padding-inline: 1rem; /* Keep content from touching edges */
+  }
+
+  .portfolio-row {
+    padding-inline: 0; /* prevent double-padding since container has it */
+  }
+
+  .portfolio-img {
+    max-height: 60vh;
+    aspect-ratio: auto;
+  }
+
+  .portfolio-text {
+    padding-inline: 0.5rem; /* Optional inner text buffer */
+  }
+
+  .portfolio-text h3 {
+    font-size: 1.5rem;
+  }
+
+  .cta-content {
+    padding-inline: 1rem;
+  }
+
+  .cta-content h2 {
+    font-size: 1.8rem;
+  }
+
+  .cta-button {
+    padding: 0.8rem 2rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-titles {
+    font-size: 1.8rem;
+  }
+
+  .portfolio-container {
+    padding-inline: 1rem;
+  }
+
+  .portfolio-text {
+    padding-inline: 0.5rem;
+  }
+
+  .cta-content {
+    padding-inline: 1rem;
+  }
+
+  .cta-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .cta-subtext {
+    font-size: 0.85rem;
+  }
+
+  .cta-button {
+    padding: 0.7rem 1.8rem;
+    font-size: 0.85rem;
+  }
+}

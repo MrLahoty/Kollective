@@ -1,0 +1,141 @@
+.allbrands {
+  background-color: #fff;
+  color: #000;
+  font-family: 'Outfit', sans-serif;
+}
+
+/* Hero Section */
+.portfolio-h {
+  padding: 10rem 2rem 4rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.breadcr {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  color: #000;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+
+.breadcrumb-l {
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.breadcrumb-curr{
+  color: #000;
+  font-weight: 500;
+}
+
+.breadcrumb-cur {
+  color: #757373;
+  font-weight: 500;
+}
+
+.breadcrumb-l:hover {
+  text-decoration: underline;
+  color: #ff9800;
+}
+
+.hero-t {
+  font-size: 4rem;
+  margin-top: 60px;
+  line-height: 1.5;
+  font-weight: 600;
+  color: #000;
+}
+
+.highlig {
+  color: #000;
+  font-weight: 700;
+  margin-left: 50px;
+}
+
+.light-w {
+  color: #000;
+  font-weight: 50;
+}
+
+.our-works-l {
+  display: inline-block;
+  margin-top: 3.5rem;
+  margin-left: 30px;
+  font-size: 0.9rem;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.our-works-l:hover {
+  transform: translateY(4px);
+  color: #ff9800;
+}
+
+.down-arr {
+  margin-left: 0.5rem;
+  font-size: 1.2rem;
+  color: #ff9800;
+}
+
+.accordion-wrapper {
+  max-width: 800px;
+  margin: 4rem auto;
+  padding: 0 2rem;
+}
+
+.accordion-item {
+  margin-bottom: 1.5rem;
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.accordion-title {
+  color: #000;
+}
+
+.accordion-toggle {
+  width: 32px;
+  height: 32px;
+  background-color: #eee;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease;
+}
+
+.accordion-toggle.open {
+  background-color: #ff9800;
+  color: #fff;
+}
+
+.accordion-body {
+  margin-top: 0.75rem;
+  font-size: 0.95rem;
+  color: #444;
+  line-height: 1.6;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin-top: 1rem;
+}

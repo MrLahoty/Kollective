@@ -1,0 +1,183 @@
+.about-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+  padding: 4rem 2rem;
+  /* Grid Background */
+  background-color: #f9f9f9;
+  /* background-image: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.05) 1px, transparent 1px); */
+  background-size: 40px 40px;
+}
+
+.about-section.container {
+  max-width: 100%;
+  padding-left: 145px;
+  padding-right: 0;
+}
+
+/* Hide content initially */
+.about__text,
+.about__image-container {
+  opacity: 0;
+}
+
+/* Animate when visible */
+.animate-slideIn {
+  animation: slideIn 1s ease forwards;
+}
+
+.animate-dropIn {
+  animation: dropIn 1s ease forwards;
+}
+
+/* Animation keyframes */
+@keyframes slideIn {
+  from {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes dropIn {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.about__heading {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+  margin-top: 17px;
+  font-family: 'Outfit', sans-serif;
+}
+
+.about__heading span {
+  font-weight: 400;
+  font-family: 'Outfit', sans-serif;
+}
+
+.about__paragraph {
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.about__quote {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  font-size: 0.95rem;
+  color: #222;
+}
+
+.about__quote-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fbbf24;
+  padding: 0.2rem;
+}
+
+.about__image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__img {
+  width: 100%;
+  max-width: 470px;
+  border-radius: 1rem;
+  object-fit: cover;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+  margin-top: 50px;
+  margin-right: 120px;
+}
+
+.about__img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Add this to your existing about.css */
+
+/* General improvements for smaller screens */
+@media screen and (max-width: 768px) {
+  .about-section.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about__text {
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .about__heading {
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .about__paragraph {
+    text-align: center;
+  }
+
+  .about__image-container {
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .about__img {
+    max-width: 100%;
+    margin: 0 auto;
+    margin-right: 0;
+  }
+}
+
+/* Extra refinements for very small screens */
+@media screen and (max-width: 420px) {
+  .about__heading {
+    font-size: 1.4rem;
+  }
+
+  .about__paragraph {
+    font-size: 0.9rem;
+    padding: 0 0.5rem;
+  }
+
+  .about__quote {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about__quote-img {
+    width: 42px;
+    height: 42px;
+  }
+}

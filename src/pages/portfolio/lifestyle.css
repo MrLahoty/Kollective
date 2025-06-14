@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: #fff;
+  color: #111;
+  line-height: 1.6;
+}
+
+/* === Wrapper === */
+.lifestyle-events {
+  padding: 4rem 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* === Header === */
+.lifestyle-header {
+  text-align: left;
+  margin-bottom: 4rem;
+  padding-left: 2rem;
+  max-width: 700px;
+}
+
+.lifestyle-breadcrumb {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: #999;
+  margin-bottom: 1rem;
+  letter-spacing: 0.08em;
+  font-weight: 500;
+  padding-top: 7rem;
+}
+
+.breadcrumb-link {
+  color: #444;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.breadcrumb-link:hover {
+  color: #4caf50;
+  text-decoration: underline;
+}
+
+.lifestyle-header h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.lifestyle-header h1 span {
+  color: #4caf50;
+}
+
+.lifestyle-subline {
+  font-size: 1.1rem;
+  color: #555;
+  margin-top: 1rem;
+}
+
+/* === Hero Image === */
+.lifestyle-hero {
+  position: relative;
+  margin: 3rem 0 5rem;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+}
+
+.lifestyle-hero img {
+  width: 100%;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.lifestyle-hero:hover img {
+  transform: scale(1.02);
+}
+
+/* === Overlay on Hero === */
+.lifestyle-overlay {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 1.5rem;
+  color: #fff;
+  border-radius: 14px;
+  max-width: 340px;
+}
+
+.lifestyle-overlay .event-meta {
+  font-size: 0.9rem;
+  color: #8bc34a;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+}
+
+.lifestyle-overlay h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.4rem;
+}
+
+.lifestyle-overlay p {
+  font-size: 1rem;
+  color: #eee;
+}
+
+/* === Grid Section === */
+.lifestyle-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.lifestyle-card {
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.lifestyle-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+}
+
+.lifestyle-card img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.lifestyle-card:hover img {
+  transform: scale(1.03);
+}
+
+.lifestyle-info {
+  padding: 1.3rem 1.6rem 2rem;
+}
+
+.lifestyle-info h3 {
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.lifestyle-info p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #555;
+}
+
+/* === CTA Section === */
+.lifestyle-cta {
+  text-align: center;
+  margin: 4rem auto;
+  max-width: 600px;
+}
+
+.lifestyle-cta h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.lifestyle-cta p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.lifestyle-cta-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 1rem 2.8rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 40px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.lifestyle-cta-button:hover {
+  background-color: #388e3c;
+}
+
+/* === Responsive === */
+@media (max-width: 768px) {
+  .lifestyle-header h1 {
+    font-size: 2.2rem;
+  }
+
+  .lifestyle-hero {
+    margin: 2rem 1rem;
+  }
+
+  .lifestyle-card img {
+    height: 180px;
+  }
+
+  .lifestyle-overlay {
+    left: 1rem;
+    bottom: 1rem;
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+}

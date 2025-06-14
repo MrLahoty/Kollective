@@ -1,0 +1,310 @@
+.services-section {
+  background-color: #000;
+  color: #fff;
+  padding: 6rem 2rem;
+  font-family: 'Outfit', sans-serif;
+}
+
+.harshlahoty {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right:1px; /* same as your current margin */
+  margin-top: 2.4rem;
+  margin-bottom: 4rem;
+  gap: 5px; /* spacing between text and line */
+}
+
+.sub-highlight {
+  color: #444;
+  font-weight: 500;
+  font-size: 1rem;
+  text-align: right;
+}
+
+.highlight-right {
+  display: block;
+  text-align: right;
+  font-weight: 500;
+  color: #444;
+}
+
+.line-after {
+  width: 460px; /* adjust width of line */
+  height: 0.5px;
+  background-color: #444; /* same as text color */
+  margin-left: 20px;
+}
+
+.line-after:hover{
+  opacity: 2;
+}
+
+.services-intro {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+  padding: 0 2rem;
+  margin-bottom: 4rem;
+}
+
+.intro-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intro-image {
+  width: 260px;
+  height: 80px;
+  border-radius: 50px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+  object-fit: cover;
+  object-position: 60% 5%;
+  margin-bottom: 1rem;
+  margin-right: 140px;
+  margin-top: 10px;
+}
+
+.main-subheading {
+  font-size: 3.7rem;
+  font-weight: 200;
+  text-align: center;
+  margin-right: -20px;
+  margin-top: 2rem; /* 👈 Add gap from top */
+  color: #b6b6b6;
+}
+
+.intro-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  margin-top: 1rem;
+}
+
+.main-heading {
+  font-size: 3.7rem;
+  font-weight: 200;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  color: #b6b6b6;
+}
+
+.highlight {
+  background: linear-gradient(to right, #fff, #fff);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+  font-size: 3.9rem;
+  letter-spacing: 1px;
+}
+
+.highlightsssss {
+  background: linear-gradient(to right, #fff, #fff);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+  font-size: 4.2rem;
+  margin-left: -190px; /* 👈 Move slightly to the left */
+}
+
+.team-read-moress {
+  position: relative;
+  margin-top: 1rem;
+  padding: 2.1rem 4rem;
+  background-color: #ff9800;
+  border: none;
+  color: #000000;
+  font-size: 0.9rem;
+  border-radius: 70px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-left: 10px;
+  width: 220px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.team-read-moress:hover {
+  background-color: #ffa200;
+}
+
+.read-more-textss {
+  position: absolute;
+  font-size: 14px;
+  left: 42%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  font-weight: 500;
+  transition: transform 0.3s ease;
+  letter-spacing: 1px; /* Adjust spacing as needed */
+}
+
+.team-read-moress:hover .read-more-textss {
+  transform: translate(-50%, -52%);
+}
+
+.team-read-moress span.arrow-circless {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #000;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.team-read-moress:hover .arrow-circless {
+  transform: translateY(-50%) translateX(3px) scale(1.05);
+}
+
+.arrow-iconss {
+  width: 20px;
+  height: 20px;
+  transition: transform 0.3s ease;
+}
+
+.services-grid {
+  margin-top: 7rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0;
+  border-left: 1px solid #222;
+  margin-bottom: -90px;
+  margin-left: 260px;
+}
+
+.service-card {
+  background-color: #000;
+  border-right: 1px solid #222;
+  border-top: 1px solid #222;
+  padding: 2.5rem 2rem;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+  transition: background 0.3s ease;
+  cursor: pointer;
+}
+
+.service-card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.service-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 3.5px;
+  width: 100%;
+  background-color: #fdb913;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.7s ease;
+  z-index: 1;
+}
+
+.service-card:hover::before {
+  transform: scaleX(1);
+}
+
+.service-card:hover {
+  background-color: #111;
+}
+
+.service-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+
+.card-hover-details {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px);
+  transition: all 0.5s ease;
+  font-size: 15px;
+}
+
+.card-hover-details p{
+  margin-bottom: 60px;
+  color: #888;
+}
+
+.service-card:hover .card-hover-details {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.arrow-iconssssss {
+  width: 20px;
+  height: 20px;
+  transition: transform 0.4s ease;
+}
+
+.arrow-circlessssss {
+  position: absolute;
+  right: 200px;
+  top: 86%;
+  transform: translateY(-50%) translateX(3px) scale(1.05);
+  background-color: #ff9800;
+  border-radius: 50%;
+  width: 41px;
+  height: 41px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+/* Hover Effect */
+.arrow-circlessssss:hover {
+  transform: translateY(-50%) translateX(3px) scale(1.15);
+  box-shadow: 0 8px 20px rgba(255, 152, 0, 0.4);
+}
+
+.arrow-circlessssss:hover .arrow-iconssssss {
+  transform: scale(1.1);
+}
+
+
+.service-card.active {
+  border-top: 4px solid #fdb913;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .services-intro {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .intro-text {
+    align-items: center;
+    text-align: center;
+  }
+
+  .cta-button {
+    align-self: center;
+  }
+}

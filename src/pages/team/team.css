@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap');
+
+.team-section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4rem 2rem;
+  background-color: #ffffff;
+  font-family: 'Outfit', sans-serif;
+  margin-top: 50px;
+  margin-bottom: 90px;
+}
+
+.team-text {
+  flex: 1 1 40%;
+  padding-right: 1rem;
+  color: #000000;
+  margin-top: 50px;
+}
+
+.team-subtitle {
+  font-size: 65px;
+  font-weight: 600;
+  margin-bottom: 2.2rem;
+  line-height: 1.2;
+  color: #000000;
+  margin-left: 250px;
+}
+
+.team-text p {
+  font-size: 16px;
+  margin-bottom: 1rem;
+  color: rgba(0, 0, 0, 0.5);
+  line-height: 1.6;
+  width: 350px;
+  margin-left: 250px;
+  margin-top: 50px;
+}
+
+.team-read-more {
+  position: relative;
+  margin-top: 4.5rem;
+  padding: 2.2rem 4rem;
+  background-color: #ff9800;
+  border: none;
+  color: #000000;
+  font-size: 0.9rem;
+  border-radius: 70px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-left: 240px;
+  width: 220px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.team-read-more:hover {
+  background-color: #ffa200;
+}
+
+.read-more-text {
+  position: absolute;
+  font-size: 14px;
+  left: 42%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  font-weight: 500;
+  transition: transform 0.3s ease;
+  letter-spacing: 1px; /* Adjust spacing as needed */
+}
+
+.team-read-more:hover .read-more-text {
+  transform: translate(-50%, -52%);
+}
+
+.team-read-more span.arrow-circle {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #000;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.team-read-more:hover .arrow-circle {
+  transform: translateY(-50%) translateX(3px) scale(1.05);
+}
+
+.arrow-icon {
+  width: 20px;
+  height: 20px;
+  transition: transform 0.3s ease;
+}
+
+.team-images-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  align-items: center;
+  justify-items: center;
+  margin-right: 230px;
+}
+
+.team-image-box {
+  width: 100%;
+  max-width: 270px;
+  height: 340px;
+}
+
+.team-image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.team-image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: filter 0.4s ease;
+}
+
+/* Overlay for dark effect */
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  background: rgba(0, 0, 0, 0.468);
+  transition: width 0.4s ease;
+  z-index: 1;
+  /* Removed cursor:pointer; */
+}
+
+.member-info {
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  transform: translate(-50%, 20px);
+  color: #fff;
+  text-align: center;
+  opacity: 0;
+  z-index: 2;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  width: 170px;
+  /* Removed pointer-events: none */
+}
+
+.member-name,
+.member-occupation {
+  cursor: pointer; /* ✅ Added */
+  transition: color 0.3s ease;
+}
+
+.member-name:hover,
+.member-occupation:hover {
+  color: #ff9800; /* ✅ Hover effect */
+}
+
+.member-name {
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.member-occupation {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 6px;
+  color: #c6c3c3;
+}
+
+/* Show on hover with upward animation */
+.team-image-wrapper:hover .member-info {
+  opacity: 1;
+  transform: translate(-50%, 0); /* Move to original position */
+}
+
+/* Golden line */
+.gold-line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 4.5px;
+  background: #ff9800;
+  width: 0;
+  z-index: 2;
+  transition: width 0.4s ease;
+}
+
+/* Hover Effects */
+.team-image-wrapper:hover .image-overlay {
+  width: 100%;
+}
+
+.team-image-wrapper:hover .member-name {
+  opacity: 1;
+}
+
+.team-image-wrapper:hover .gold-line {
+  width: 100%;
+}
+
+.team-image-box.down {
+  position: relative;
+  top: 60px;
+}
+
+.team-message {
+  margin-top: 4rem;
+  font-family: "Outfit", sans-serif;
+  font-size: 24px;
+  margin-left: 250px;
+  line-height: 1.4;
+}
+
+.team-message .light-text {
+  font-weight: 50;
+  color: #484343;
+}
+
+.team-message .bold-text {
+  font-weight: 700;
+  color: #000000;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .team-section {
+    flex-direction: column;
+  }
+
+  .team-text, .team-images-grid {
+    flex: 1 1 100%;
+    padding: 0;
+  }
+
+  .team-subtitle {
+    font-size: 2rem;
+  }
+
+  .team-images-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .team-image-box.up,
+  .team-image-box.down {
+    transform: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .team-images-grid {
+    grid-template-columns: 1fr;
+  }
+}

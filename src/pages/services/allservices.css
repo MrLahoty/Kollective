@@ -1,0 +1,168 @@
+.allservicess {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Outfit', sans-serif;
+}
+
+/* Hero Section */
+.portfolio-heross {
+  padding: 10rem 2rem 4rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.breadcrumbss {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+
+.breadcrumb-linkss {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.breadcrumb-current {
+  color: #757373;
+  font-weight: 500;
+}
+
+.breadcrumb-linkss:hover {
+  text-decoration: underline;
+  color: #ff9800;
+}
+
+.hero-titlesss {
+  font-size: 4rem;
+  margin-top: 60px;
+  line-height: 1.5;
+  font-weight: 600;
+  color: #fff;
+}
+
+.highlightss {
+  color: #fff;
+  font-weight: 700;
+  margin-left: 50px;
+}
+
+.light-word {
+  color: #ddd;
+  font-weight: 200;
+}
+
+.our-works-links {
+  display: inline-block;
+  margin-top: 3.5rem;
+  margin-left: 30px;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ff9800;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.our-works-links:hover {
+  transform: translateY(4px);
+  color: #ddd;
+}
+
+.down-arrows {
+  margin-left: 0.5rem;
+  font-size: 1.2rem;
+}
+
+/* Services Section */
+.services-gridss {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 4rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+.service-cardss {
+  border-top: 1px solid #222;
+  padding-top: 2rem;
+  min-height: 480px; /* Ensures card is tall enough */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.service-card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.service-titless {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.service-descss {
+  color: #888;
+  font-size: 0.96rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.service-listss {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 2rem;
+}
+
+.service-listss li {
+  border-top: 1px solid #222;
+  padding: 0.75rem 0;
+  font-weight: 600;
+  font-size: 0.9rem;
+  letter-spacing: 0.8px;
+}
+
+.read-more-sectionss {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 15px;
+}
+
+.read-more-btnss {
+  background-color: #ff9800;
+  border: none;
+  color: #000000;
+  font-size: 1.3rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.read-more-btnss:hover {
+  background-color: #fff;
+}
+
+/* Decorative Pattern (optional) */
+.portfolio-heross::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 200px;
+  height: 200px;
+  background-image: url('https://www.freepik.com/free-vector/geometric-triangle-pattern-illustration_3895814.htm');
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.05;
+}
