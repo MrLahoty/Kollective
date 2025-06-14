@@ -4,7 +4,7 @@ import About from "./pages/about/About";
 import Portfolio from "./pages/portfolio/Portfolio";
 import Contact from "./pages/contact/Contact";
 import TeamDetails from "./pages/team/TeamDetails";
-import { createHashRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router";
 import AppLayout from "./components/AppLayout";
 import Services from "./pages/services/Services";
 import CorporateEvents from "./pages/portfolio/CorporateEvents";
@@ -65,7 +65,7 @@ const App = () => {
     };
   }, []);
 
-  const router = createHashRouter([
+  const router = createBrowserRouter([
     {
       path: "/",
       element: <AppLayout />,
