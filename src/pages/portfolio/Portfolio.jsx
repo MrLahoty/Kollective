@@ -1,7 +1,7 @@
 import "./portfolio.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Footer from "../../components/footer/Footer.jsx";
 
@@ -52,7 +52,7 @@ const portfolio = [
 const Portfolio = () => {
   useEffect(() => {
     AOS.init({
-      duration: 700,
+      duration: 800,
       once: true,
       easing: "ease-in-out",
     });
@@ -76,7 +76,7 @@ const Portfolio = () => {
         </p>
         <h1 className="hero-titles">
           Designing a <br />
-          <span className="highlight">Better</span> World Today
+          <span className="highli">Better</span> World Today
         </h1>
         <a href="#our-works" className="our-works-link">
           OUR WORKS <span className="down-arrow">↓</span>

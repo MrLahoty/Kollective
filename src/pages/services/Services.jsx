@@ -34,7 +34,13 @@ const services = [
 
 const Services = () => {
   useEffect(() => {
-    AOS.init({ duration: 700, once: false, mirror: true });
+    AOS.init({
+      duration: 1000,
+      once: false,
+      mirror: true,
+      offset: 100,
+      disable: false, // 👈 This enables animations on all devices including mobile
+    });
   }, []);
 
   return (

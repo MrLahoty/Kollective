@@ -13,7 +13,7 @@ const Navbar = () => {
 
   // Update icon color based on current route
   useEffect(() => {
-    const whiteBackgroundRoutes = ["/about", "/portfolio", "/contact", "/brands", "/branded", "/website", "/max"];
+    const whiteBackgroundRoutes = ["/about", "/portfolio", "/contact", "/brands", "/branded", "/website", "/max", "/corporateEvents", "/largeFormateEvent", "/mice", "/brand", "/lifestyle"];
     if (whiteBackgroundRoutes.includes(location.pathname)) {
       setIconColor("black");
     } else {

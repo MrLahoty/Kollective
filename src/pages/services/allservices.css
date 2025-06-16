@@ -166,3 +166,25 @@
   background-repeat: no-repeat;
   opacity: 0.05;
 }
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .hero-titlesss {
+    font-size: 3.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-titlesss {
+    font-size: 2.6rem;
+    margin-top: 42px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-titlesss {
+    font-size: 1.9rem;
+    line-height: 1.4;
+    margin-top: 30px;
+  }
+}

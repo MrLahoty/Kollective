@@ -2,14 +2,14 @@
   background-color: #000;
   color: #fff;
   padding: 6rem 2rem;
-  font-family: 'Outfit', sans-serif;
+  font-family: "Outfit", sans-serif;
 }
 
 .harshlahoty {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  margin-right:1px; /* same as your current margin */
+  margin-right: 1px; /* same as your current margin */
   margin-top: 2.4rem;
   margin-bottom: 4rem;
   gap: 5px; /* spacing between text and line */
@@ -36,7 +36,7 @@
   margin-left: 20px;
 }
 
-.line-after:hover{
+.line-after:hover {
   opacity: 2;
 }
 
@@ -207,7 +207,7 @@
 }
 
 .service-card::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -244,7 +244,7 @@
   font-size: 15px;
 }
 
-.card-hover-details p{
+.card-hover-details p {
   margin-bottom: 60px;
   color: #888;
 }
@@ -287,24 +287,107 @@
   transform: scale(1.1);
 }
 
-
 .service-card.active {
   border-top: 4px solid #fdb913;
 }
 
-/* Responsive tweaks */
+/* Mobile & Tablet: max-width 768px */
 @media (max-width: 768px) {
   .services-intro {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .intro-text {
+    display: flex;
+    flex-direction: column-reverse;
     align-items: center;
     text-align: center;
+    gap: 1.5rem;
+    padding: 0 1rem;
   }
 
-  .cta-button {
-    align-self: center;
+  .intro-left,
+  .intro-right {
+    width: 100%;
+  }
+
+  .intro-image {
+    display: none;
+  }
+
+  .highlight,
+  .highlightsssss {
+    font-size: 2.6rem;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .main-subheading {
+    font-size: 2rem;
+    text-align: center;
+    margin-right: 0;
+  }
+
+  .main-heading {
+    font-size: 2rem;
+    text-align: center;
+    margin-right: 0;
+  }
+
+  .team-read-moress {
+    width: 205px;
+    height: 60px;
+    padding: 1.2rem 2rem;
+    font-size: 0.8rem;
+    margin-top: 25px;
+    margin-left: 52px;
+  }
+
+  .arrow-circless {
+    width: 39px;
+    height: 39px;
+    right: 8px;
+  }
+
+  .services-grid {
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 0;
+    margin-top: 3rem;
+    border-left: 1px solid #222;
+  }
+
+  .service-title {
+    font-size: 18px;
+  }
+
+  .service-card {
+    padding: 2rem 1.5rem;
+    height: 320px;
+  }
+
+  .harshlahoty {
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0;
+  }
+
+  .line-after {
+    display: none;
+  }
+
+  .sub-highlight,
+  .highlight-right {
+    text-align: center;
+  }
+
+  .arrow-circlessssss {
+    position: absolute; /* make sure the parent is relative */
+    bottom: 20px;
+    left: 22px; /* replaces right: 20px */
+    margin: 0;
+  }
+
+  .card-hover-details {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: translateY(0) !important;
+    margin-bottom: 22px;
+    margin-top: -5px;
   }
 }

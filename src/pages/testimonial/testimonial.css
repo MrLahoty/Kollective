@@ -84,22 +84,26 @@
 }
 
 .nav-arrow {
-  font-size: 24px;
-  background: transparent;
-  border: 2px solid #ccc;
-  border-radius: 50%;
-  width: 45px;
-  height: 45px;
-  color: #333;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
+    width: 48px;
+    height: 48px;
+    border: none;
+    border-radius: 50%;
+    background-color: #f1f1f1;
+    color: #000;
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
 
-.nav-arrow:hover {
-  background-color: orange;
-  color: white;
-  border-color: orange;
-}
+  .nav-arrow:hover {
+    background-color: #e0e0e0;
+    color: #000;
+  }
 
 .nav-arrow.left {
   order: 1;
@@ -195,5 +199,136 @@
   100% {
     transform: translateX(0%);
     opacity: 1;
+  }
+}
+
+/* Responsive Styles for Zigzag Testimonial */
+
+@media (max-width: 1024px) {
+  
+  .zigzag-testimonial h2 {
+    font-size: 45px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+
+  .testimonial-text {
+    font-size: 19px;
+    padding: 0 20px;
+  }
+
+  .testimonial-name {
+    font-size: 18px;
+  }
+
+  .testimonial-company {
+    font-size: 13px;
+  }
+
+  .nav-arrow {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .zigzag-testimonial {
+    padding: 40px 15px;
+  }
+
+  .zigzag-testimonial h2 {
+    font-size: 36px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+
+  .zigzag-avatars {
+    gap: 15px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
+
+  .testimonial-avatar {
+    width: 70px;
+    height: 70px;
+  }
+
+  .testimonial-box {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .nav-arrow {
+    display: none;
+  }
+
+  .testimonial-content {
+    order: initial;
+    margin-bottom: 40px;
+  }
+
+  .quote-icon {
+    font-size: 60px;
+    margin-top: 20px;
+  }
+
+  .testimonial-text {
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 0 10px;
+  }
+
+  .testimonial-name {
+    font-size: 17px;
+  }
+
+  .testimonial-company {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .zigzag-testimonial h2 {
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+  }
+
+  .zigzag-avatars {
+    gap: 12px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  .testimonial-avatar {
+    width: 60px;
+    height: 60px;
+  }
+
+  .testimonial-box {
+    gap: 15px;
+  }
+
+  .quote-icon {
+    font-size: 50px;
+  }
+
+  .testimonial-text {
+    font-size: 16px;
+    padding: 0 8px;
+    line-height: 1.5;
+  }
+
+  .testimonial-name {
+    font-size: 16px;
+  }
+
+  .testimonial-company {
+    font-size: 11px;
+  }
+
+  .nav-arrow {
+    display: none;
   }
 }

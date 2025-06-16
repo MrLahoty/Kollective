@@ -214,23 +214,128 @@ body {
   background-color: #a10000;
 }
 
-/* === Responsive === */
-@media (max-width: 768px) {
+/* === Responsive: Tablets & Mobiles (≤768px) === */
+@media screen and (max-width: 768px) {
+
+  .large-events {
+    padding: 3rem 1rem;
+  }
+
+  .large-header {
+    padding-left: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  .large-breadcrumb {
+    padding-top: 5rem;
+    font-size: 0.7rem;
+  }
+
   .large-header h1 {
-    font-size: 2.2rem;
+    font-size: 2rem;
+    line-height: 1.3;
+    margin-top: 30px;
+  }
+
+  .large-subline {
+    font-size: 1rem;
+    margin-top: 1.3rem;
+  }
+
+  .large-hero-img {
+    margin: 2rem 0;
+    border-radius: 16px;
+  }
+
+  .large-hero-img img {
+    border-radius: 16px;
+  }
+
+  .event-overlay {
+    bottom: 1rem;
+    left: 1rem;
+    padding: 1rem;
+    font-size: 0.85rem;
+    max-width: 90%;
+    border-radius: 8px;
+  }
+
+  .event-overlay .event-meta {
+    font-size: 0.75rem;
+  }
+
+  .event-grid {
+    gap: 1.5rem;
   }
 
   .event-card img {
     height: 180px;
   }
 
-  .large-hero-img {
-    margin: 2rem 1rem;
+  .event-info {
+    padding: 1rem 1.2rem 1.5rem;
   }
 
-  .event-overlay {
-    left: 1rem;
-    bottom: 1rem;
-    padding: 1rem;
+  .event-info h3 {
+    font-size: 1.2rem;
+  }
+
+  .event-info p {
+    font-size: 0.9rem;
+  }
+
+  .large-section-text h2 {
+    font-size: 2rem;
+  }
+
+  .large-section-text p {
+    font-size: 1rem;
+  }
+
+  .large-cta {
+    margin: 4rem auto 2rem;
+  }
+
+  .large-cta h2 {
+    font-size: 2rem;
+  }
+
+  .large-cta p {
+    font-size: 1rem;
+  }
+
+  .large-cta-button {
+    font-size: 1rem;
+    padding: 0.8rem 2.2rem;
   }
 }
+
+/* === Extra Small Devices (≤480px) === */
+@media screen and (max-width: 480px) {
+  .large-header h1 {
+    font-size: 1.6rem;
+  }
+
+  .large-subline {
+    font-size: 0.95rem;
+  }
+
+  .event-card img {
+    height: 160px;
+  }
+
+  .event-info h3 {
+    font-size: 1.05rem;
+  }
+
+  .large-section-text h2,
+  .large-cta h2 {
+    font-size: 1.7rem;
+  }
+
+  .large-cta-button {
+    font-size: 0.95rem;
+    padding: 0.7rem 1.8rem;
+  }
+}
+

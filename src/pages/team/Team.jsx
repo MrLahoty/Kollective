@@ -17,7 +17,7 @@ const teamMembers = [
 
 const Team = () => {
   useEffect(() => {
-    AOS.init({ duration: 1000, once: false }); // once: false allows repeat on scroll
+    AOS.init({ duration: 1000, once: false, mirror: true }); // once: false allows repeat on scroll
   }, []);
   const navigate = useNavigate();
 
@@ -29,9 +29,13 @@ const Team = () => {
     <section className="team-section" data-aos="fade-up">
       <div className="team-text" data-aos="fade-right">
         <h2 className="team-subtitle">
-          Meet <br />
+          Meet{" "}
+          <span className="mobile-hide-break">
+            <br />
+          </span>{" "}
           Our Team
         </h2>
+
         <p>
           We are talented individuals who are passionate about bringing ideas to
           life. With a diverse range of backgrounds and skill sets, we
@@ -41,7 +45,11 @@ const Team = () => {
           Together, our creative team is committed to delivering impactful work
           that exceeds expectations.
         </p>
-        <button className="team-read-more" data-aos="fade-up" onClick={handleClick}>
+        <button
+          className="team-read-more"
+          data-aos="fade-up"
+          onClick={handleClick}
+        >
           <span className="read-more-text">READ MORE</span>
           <span className="arrow-circle">
             <svg
@@ -61,7 +69,7 @@ const Team = () => {
         <div className="team-message">
           <span className="light-text">We</span>&nbsp;
           <span className="bold-text">delivering</span>&nbsp;
-          <br />
+          <span className="mobile-hide-break"><br /></span>
           <span className="light-text">exceptional </span>
           <span className="bold-text">results.</span>&nbsp;
         </div>

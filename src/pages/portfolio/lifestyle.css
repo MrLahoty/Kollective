@@ -199,24 +199,150 @@ body {
   background-color: #388e3c;
 }
 
-/* === Responsive === */
-@media (max-width: 768px) {
+/* === Responsive: Tablets & Large Mobiles (≤768px) === */
+@media screen and (max-width: 768px) {
+  .lifestyle-events {
+    padding: 3rem 1rem;
+  }
+
+  .lifestyle-header {
+    padding-left: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  .lifestyle-breadcrumb {
+    font-size: 0.7rem;
+    padding-top: 5rem;
+  }
+
   .lifestyle-header h1 {
-    font-size: 2.2rem;
+    font-size: 2rem;
+    line-height: 1.3;
+  }
+
+  .lifestyle-subline {
+    font-size: 1rem;
+    margin-top: 0.8rem;
   }
 
   .lifestyle-hero {
-    margin: 2rem 1rem;
+    margin: 2rem 0;
+    border-radius: 16px;
   }
 
-  .lifestyle-card img {
-    height: 180px;
+  .lifestyle-hero img {
+    border-radius: 16px;
   }
 
   .lifestyle-overlay {
     left: 1rem;
     bottom: 1rem;
     padding: 1rem;
+    font-size: 0.85rem;
+    max-width: 90%;
+    border-radius: 10px;
+  }
+
+  .lifestyle-overlay h2 {
+    font-size: 1.4rem;
+  }
+
+  .lifestyle-overlay p {
     font-size: 0.9rem;
+  }
+
+  .lifestyle-grid {
+    gap: 1.5rem;
+  }
+
+  .lifestyle-card img {
+    height: 180px;
+  }
+
+  .lifestyle-info {
+    padding: 1rem 1.2rem 1.5rem;
+  }
+
+  .lifestyle-info h3 {
+    font-size: 1.2rem;
+  }
+
+  .lifestyle-info p {
+    font-size: 0.9rem;
+  }
+
+  .lifestyle-cta {
+    margin: 4rem auto 2rem;
+    padding: 0 1rem;
+  }
+
+  .lifestyle-cta h2 {
+    font-size: 2rem;
+  }
+
+  .lifestyle-cta p {
+    font-size: 1rem;
+  }
+
+  .lifestyle-cta-button {
+    font-size: 1rem;
+    padding: 0.8rem 2.2rem;
+  }
+}
+
+/* === Responsive: Small Phones (≤480px) === */
+@media screen and (max-width: 480px) {
+  .lifestyle-header h1 {
+    font-size: 1.6rem;
+  }
+
+  .lifestyle-subline {
+    font-size: 0.95rem;
+  }
+
+  .lifestyle-breadcrumb {
+    font-size: 0.65rem;
+  }
+
+  .lifestyle-card img {
+    height: 160px;
+  }
+
+  .lifestyle-info h3 {
+    font-size: 1.05rem;
+  }
+
+  .lifestyle-info p {
+    font-size: 0.88rem;
+  }
+
+  .lifestyle-cta h2 {
+    font-size: 1.7rem;
+  }
+
+  .lifestyle-cta p {
+    font-size: 0.95rem;
+  }
+
+  .lifestyle-cta-button {
+    font-size: 0.95rem;
+    padding: 0.7rem 1.8rem;
+  }
+
+  .lifestyle-overlay {
+    font-size: 0.8rem;
+    padding: 0.8rem;
+  }
+
+  .lifestyle-overlay h2 {
+    font-size: 1.2rem;
+  }
+
+  .lifestyle-overlay p {
+    font-size: 0.85rem;
+  }
+
+  .lifestyle-overlay .event-meta {
+    font-size: 0.75rem;
   }
 }
