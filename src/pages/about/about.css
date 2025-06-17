@@ -120,6 +120,7 @@
 
 /* General improvements for smaller screens */
 @media screen and (max-width: 768px) {
+
   .about-section.container {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -138,7 +139,8 @@
 
   .about__heading {
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 2.2rem;
+    font-size: 1.4rem;
   }
 
   .about__paragraph {
