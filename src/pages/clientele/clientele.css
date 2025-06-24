@@ -1,12 +1,12 @@
-/* PARTNERS SECTION (scroll left to right) */
-.partners-marquee-section {
+/* CLIENTELE SECTION (scroll right to left) */
+.clientele-marquee-section {
   background-color: #fff;
   padding: 90px 0;
   overflow: hidden;
   text-align: center;
 }
 
-.partners-marquee-section h2 {
+.clientele-marquee-section h2 {
   color: #ff9800;
   font-size: 2.2rem;
   font-weight: 600;
@@ -15,24 +15,24 @@
   font-family: 'Outfit', sans-serif;
 }
 
-.partners-marquee-section .dot {
+.clientele-marquee-section .dotssss {
   color: #ff5a5f;
   margin-right: 6px;
 }
 
-.marquee {
+.marqueeeeee {
   position: relative;
   width: 100%;
   overflow: hidden;
 }
 
-.track {
+.trackssss {
   display: flex;
   width: fit-content;
-  animation: scroll-left-to-right 50s linear infinite;
+  animation: scroll-right-to-left 50s linear infinite;
 }
 
-.logo-box {
+.logo-boxssss {
   flex: 0 0 auto;
   width: 260px;
   display: flex;
@@ -41,22 +41,22 @@
   padding: 10px;
 }
 
-.logo-box img {
+.logo-boxssss img {
   max-height: 90px;
   width: auto;
   object-fit: contain;
   transition: transform 0.3s ease;
 }
 
-.logo-box img:hover {
+.logo-boxssss img:hover {
   transform: scale(1.1);
 }
 
-@keyframes scroll-left-to-right {
+@keyframes scroll-right-to-left {
   0% {
-    transform: translateX(-50%);
+    transform: translateX(0);
   }
   100% {
-    transform: translateX(0);
+    transform: translateX(-50%);
   }
 }

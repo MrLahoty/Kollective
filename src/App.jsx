@@ -22,7 +22,7 @@ import LifestyleEvents from "./pages/services/LifestyleEvents";
 const App = () => {
   const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
   const [isScrolling, setIsScrolling] = useState(false);
-  const [scrollPercentage, setScrollPercentage] = useState(0); // Track scroll progress
+  const [scrollPercentage, setScrollPercentage] = useState(0);
 
   // Handle mouse movement for custom cursor
   useEffect(() => {

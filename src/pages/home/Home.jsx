@@ -7,6 +7,7 @@ import Team from "../team/Team";
 import Footer from "../../components/footer/Footer";
 import Gallery from "../gallery/Gallery";
 import Services from "../services/Services";
+import Clientele from "../clientele/Clientele";
 import Partners from "../partners/Partners";
 import Testimonial from "../testimonial/Testimonial";
 import { useNavigate } from "react-router";
@@ -169,6 +170,7 @@ const Home = () => {
           <Team />
           <Testimonial />
           <Gallery />
+          <Clientele />
           <Partners />
           <Footer />
         </>
