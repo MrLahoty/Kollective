@@ -1,15 +1,16 @@
 .partners-marquee-section {
   background-color: #fff;
-  padding: 60px 0;
+  padding: 90px 0;
   overflow: hidden;
   text-align: center;
 }
 
 .partners-marquee-section h2 {
   color: #ff9800;
-  font-size: 2rem;
+  font-size: 2.3rem;
   font-weight: 600;
-  margin-bottom: 40px;
+  margin-bottom: 70px;
+  margin-top: -30px;
 }
 
 .partners-marquee-section .dot {
@@ -25,13 +26,13 @@
 
 .track {
   display: flex;
-  width: calc(250px * 12); /* adjust based on number of logos * 2 */
-  animation: scroll-marquee 30s linear infinite;
+  width: fit-content;
+  animation: scroll-marquee 50s linear infinite;
 }
 
 .logo-box {
   flex: 0 0 auto;
-  width: 250px;
+  width: 260px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -39,7 +40,7 @@
 }
 
 .logo-box img {
-  max-height: 60px;
+  max-height: 90px;
   width: auto;
   object-fit: contain;
   transition: transform 0.3s ease;

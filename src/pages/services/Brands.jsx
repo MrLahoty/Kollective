@@ -5,7 +5,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Footer from "../../components/footer/Footer";
 
-const Brand = () => {
+const CorporateEvents = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
   const toggleItem = (index) => {
@@ -18,24 +18,40 @@ const Brand = () => {
 
   const services = [
     {
-      title: "UX AUDITS",
-      description: "We evaluate your user experience to uncover friction points and improve usability.We evaluate your user experience to uncover friction points and improve usability.We evaluate your user experience to uncover friction points and improve usability.",
+      title: "TOWNHALLS & CONFERENCES",
+      description: "We organize high-impact townhalls and conferences that keep your audience informed, aligned, and inspired.",
     },
     {
-      title: "DESIGN THINKING",
-      description: "We apply a problem-solving approach that starts with understanding your users' needs.We apply a problem-solving approach that starts with understanding your users' needs.We apply a problem-solving approach that starts with understanding your users' needs.",
+      title: "PRODUCT & FACILITY LAUNCHES",
+      description: "From concept to execution, we create launch experiences that generate buzz and build lasting brand recall.",
     },
     {
-      title: "WIREFRAMING",
-      description: "We build layout blueprints to help visualize product functionality and flow.We build layout blueprints to help visualize product functionality and flow.We build layout blueprints to help visualize product functionality and flow.We build layout blueprints to help visualize product functionality and flow.",
+      title: "SALES & DEALER MEETS",
+      description: "We craft dynamic and engaging sales meets and channel partner events that drive motivation and loyalty.",
     },
     {
-      title: "AESTHETICS",
-      description: "We create visually pleasing designs that align with your brand and appeal to users.We create visually pleasing designs that align with your brand and appeal to users.We create visually pleasing designs that align with your brand and appeal to users.We create visually pleasing designs that align with your brand and appeal to users.",
+      title: "CUSTOMER & BRAND ACTIVATIONS",
+      description: "Interactive experiences that bring your brand to life and foster stronger connections with your audience.",
     },
     {
-      title: "METHODOLOGIES",
-      description: "We follow industry-standard processes to ensure quality and efficiency.We follow industry-standard processes to ensure quality and efficiency.We follow industry-standard processes to ensure quality and efficiency.We follow industry-standard processes to ensure quality and efficiency.",
+      title: "ROADSHOWS & EXHIBITION DISPLAYS",
+      description: "Seamless execution of brand roadshows and standout exhibition setups tailored to maximize visibility and engagement.",
+    },
+    {
+      title: "EMPLOYEE ENGAGEMENT ACTIVITIES & EVENTS",
+      description: "Creative in-office and offsite programs designed to boost morale, collaboration, and workplace culture.",
+    },
+    {
+      title: "CORPORATE GIFTING & MERCHANDISING",
+      description: "Customized gifts and branded merchandise that leave a lasting impression on clients, partners, and teams.",
+    },
+    {
+      title: "ANNUAL DAYS & RNR EVENTS",
+      description: "Celebrate milestones with immersive annual day celebrations and recognition events that reward excellence.",
+    },
+    {
+      title: "COMPANY OFFSITES",
+      description: "End-to-end planning of corporate retreats and team offsites for strategic alignment and team bonding.",
     },
   ];
 
@@ -48,12 +64,12 @@ const Brand = () => {
           &nbsp; / &nbsp;
           <Link to="/allservices" className="breadcrumb-l" data-aos="fade-up">SERVICES</Link>
           &nbsp; / &nbsp;
-          <span className="breadcrumb-cur" data-aos="fade-up">BRANDS</span>
+          <span className="breadcrumb-cur" data-aos="fade-up">CORPORATE EVENTS</span>
         </p>
 
         <h1 className="hero-t" data-aos="fade-up">
-          Branding <span className="light-w">and</span> <br />
-          <span className="highlig">Identity</span> <span className="light-w">Design</span>
+          Corporate <span className="light-w">Events</span> <br />
+          <span className="highlig">that Engage</span> <span className="light-w">& Inspire</span>
         </h1>
 
         <a href="#our-services" className="our-works-l" data-aos="fade-up">
@@ -85,13 +101,11 @@ const Brand = () => {
       <div className="portfolio-cta" data-aos="fade-up">
         <div className="cta-content" data-aos="fade-up">
           <p className="cta-subtext" data-aos="fade-up">
-            Looking to make your mark? We'll help you turn your project into a
-            success story.
+            Make your next corporate event unforgettable with our end-to-end planning and execution expertise.
           </p>
           <h2>
-            Ready to bring <strong>your</strong> ideas to <strong>life?</strong>
-            <br />
-            <span>We're</span> here to help
+            Let’s build <strong>moments</strong> <br />
+            <span>your teams</span> will remember
           </h2>
           <a href="/contact" className="cta-button">
             Contact Us <span className="arrow">→</span>
@@ -100,9 +114,8 @@ const Brand = () => {
       </div>
 
       <Footer />
-
     </section>
   );
 };
 
-export default Brand;
+export default CorporateEvents;

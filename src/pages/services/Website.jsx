@@ -5,7 +5,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Footer from "../../components/footer/Footer";
 
-const Website = () => {
+const Mice = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
   const toggleItem = (index) => {
@@ -18,24 +18,28 @@ const Website = () => {
 
   const services = [
     {
-      title: "UX AUDITS",
-      description: "We evaluate your user experience to uncover friction points and improve usability.We evaluate your user experience to uncover friction points and improve usability.We evaluate your user experience to uncover friction points and improve usability.",
+      title: "MEETINGS",
+      description: "Professional planning and execution of business meetings, ensuring seamless coordination and productive outcomes.",
     },
     {
-      title: "DESIGN THINKING",
-      description: "We apply a problem-solving approach that starts with understanding your users' needs.We apply a problem-solving approach that starts with understanding your users' needs.We apply a problem-solving approach that starts with understanding your users' needs.",
+      title: "INCENTIVES",
+      description: "Designing unique and motivational experiences to reward performance and boost morale within teams and organizations.",
     },
     {
-      title: "WIREFRAMING",
-      description: "We build layout blueprints to help visualize product functionality and flow.We build layout blueprints to help visualize product functionality and flow.We build layout blueprints to help visualize product functionality and flow.We build layout blueprints to help visualize product functionality and flow.",
+      title: "CONFERENCES",
+      description: "Comprehensive support for organizing industry and corporate conferences, from logistics to content management.",
     },
     {
-      title: "AESTHETICS",
-      description: "We create visually pleasing designs that align with your brand and appeal to users.We create visually pleasing designs that align with your brand and appeal to users.We create visually pleasing designs that align with your brand and appeal to users.We create visually pleasing designs that align with your brand and appeal to users.",
+      title: "EXHIBITIONS",
+      description: "Curating impactful exhibition experiences that attract audiences, engage brands, and showcase innovation.",
     },
     {
-      title: "METHODOLOGIES",
-      description: "We follow industry-standard processes to ensure quality and efficiency.We follow industry-standard processes to ensure quality and efficiency.We follow industry-standard processes to ensure quality and efficiency.We follow industry-standard processes to ensure quality and efficiency.",
+      title: "BUYER SELLER MEETS",
+      description: "Facilitating dynamic buyer-seller networking sessions to encourage business opportunities and partnerships.",
+    },
+    {
+      title: "CONCLAVES",
+      description: "Strategic ideation and execution of high-profile conclaves featuring thought leadership, discussions, and engagement.",
     },
   ];
 
@@ -48,12 +52,12 @@ const Website = () => {
           &nbsp; / &nbsp;
           <Link to="/allservices" className="breadcrumb-l" data-aos="fade-up">SERVICES</Link>
           &nbsp; / &nbsp;
-          <span className="breadcrumb-cur" data-aos="fade-up">WEBSITE</span>
+          <span className="breadcrumb-cur" data-aos="fade-up">MICE</span>
         </p>
 
         <h1 className="hero-t" data-aos="fade-up">
-          Website <span className="light-w">Design</span> <br />
-          <span className="highlig">and</span> <span className="light-w">Development</span>
+          Meetings, Incentives, <br />
+          <span className="highlig">Conferences &</span> <span className="light-w">Exhibitions</span>
         </h1>
 
         <a href="#our-services" className="our-works-l" data-aos="fade-up">
@@ -85,13 +89,11 @@ const Website = () => {
       <div className="portfolio-cta" data-aos="fade-up">
         <div className="cta-content" data-aos="fade-up">
           <p className="cta-subtext" data-aos="fade-up">
-            Looking to make your mark? We'll help you turn your project into a
-            success story.
+            Planning a MICE initiative? Let’s build an event that makes a lasting impression.
           </p>
           <h2>
-            Ready to bring <strong>your</strong> ideas to <strong>life?</strong>
-            <br />
-            <span>We're</span> here to help
+            From vision to <strong>venue</strong>—<br />
+            <span>we bring</span> MICE ideas to life.
           </h2>
           <a href="/contact" className="cta-button">
             Contact Us <span className="arrow">→</span>
@@ -100,9 +102,8 @@ const Website = () => {
       </div>
 
       <Footer />
-
     </section>
   );
 };
 
-export default Website;
+export default Mice;

@@ -7,28 +7,34 @@ import serviceImg from "../../assets/Image.jpeg";
 
 const services = [
   {
-    title: "Branding and Identity Design",
+    title: "CORPORATE EVENTS",
     description:
-      "We develop branding systems, logos, and visuals that communicate your company’s values and personality.",
+      "End-to-end execution of townhalls, launches, offsites, and employee engagement programs tailored to your company goals.",
     path: "/brands",
   },
   {
-    title: "Website Design and Development",
+    title: "LARGE FORMAT EVENT",
     description:
-      "We build high-performance websites that are responsive, fast, and optimized for user engagement.",
+      "High-impact expos, summits, and mass-scale productions that blend creativity with flawless logistics.",
     path: "/branded",
   },
   {
-    title: "Advertising and Marketing Campaigns",
+    title: "MICE",
     description:
-      "From digital ads to creative print and video campaigns, we help you connect with your audience.",
+      "Meetings, Incentives, Conferences, and Exhibitions—planned with precision and international standards.",
     path: "/website",
   },
   {
-    title: "Creative Consulting and Development",
+    title: "BRAND COMMUNICATION AND ADVERTISING",
     description:
-      "We offer strategic consulting for companies looking to revamp their creative and digital presence.",
+      "Strategic campaigns and creative solutions that amplify your brand message across digital and traditional platforms.",
     path: "/max",
+  },
+    {
+    title: "LIFESTYLE & LUXURY EVENTS",
+    description:
+      "Curated experiences for premium brands—fashion shows, art launches, private parties, and ultra-luxury affairs.",
+    path: "/lifestyleevents",
   },
 ];
 

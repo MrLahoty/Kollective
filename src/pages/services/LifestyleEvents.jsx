@@ -5,7 +5,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Footer from "../../components/footer/Footer";
 
-const BrandCommunication = () => {
+const LifestyleEvents = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
   const toggleItem = (index) => {
@@ -18,32 +18,39 @@ const BrandCommunication = () => {
 
   const services = [
     {
-      title: "OUT OF HOME SOLUTIONS (OOH)",
-      description: "High-impact outdoor advertising—from billboards to transit media—ensuring your brand captures attention in the real world.",
+      title: "FASHION SHOWS",
+      description:
+        "Experience high-fashion like never before with runway productions, designer showcases, and trend-forward event staging that turns heads and sets standards.",
     },
     {
-      title: "RADIO SPOTS & CAMPAIGNS",
-      description: "Engaging radio campaigns crafted to communicate your message to a wide and diverse audience through compelling audio storytelling.",
+      title: "‘BY INVITE’ EXCLUSIVE EVENTS",
+      description:
+        "Crafted for the select few — our exclusive soirées and members-only gatherings offer prestige, privacy, and elevated engagement.",
     },
     {
-      title: "DIGITAL ADS & ADVERTORIALS",
-      description: "Performance-driven digital advertising strategies including display ads, video, and native content for online engagement.",
+      title: "THEATRICAL EXPERIENCES",
+      description:
+        "Merge entertainment and elegance with immersive performances that blend stagecraft, storytelling, and spectacle for unforgettable guest journeys.",
     },
     {
-      title: "BRAND IDENTITY DEVELOPMENT",
-      description: "Building strong brand identities through logos, visual guidelines, and consistent messaging across platforms.",
+      title: "SPORTS EVENTS & EXPERIENCES",
+      description:
+        "From courtside to VIP lounges — we curate sports-based luxury moments that combine adrenaline, luxury, and social status.",
     },
     {
-      title: "SOCIAL MEDIA CAMPAIGNS",
-      description: "Creative and data-led social media campaigns designed to grow reach, engagement, and brand loyalty.",
+      title: "MOTORSPORTS EXPERIENCES",
+      description:
+        "Precision, power, and prestige come together in bespoke motorsports experiences including track days, racing hospitality, and brand-integrated drives.",
     },
     {
-      title: "PRINT & NATIVE ADVERTISING",
-      description: "Targeted print media solutions including magazine spreads and native ads that blend storytelling with brand value.",
+      title: "WEDDING CELEBRATIONS",
+      description:
+        "From intimate ceremonies to destination extravaganzas — our weddings are personal, polished, and profoundly beautiful.",
     },
     {
-      title: "AMBIENT MEDIA & INSTALLATION",
-      description: "Innovative brand installations and ambient media placements to surprise, delight, and leave a memorable impression.",
+      title: "MILESTONE CELEBRATIONS",
+      description:
+        "Celebrate life’s defining moments with curated settings, luxury details, and heartfelt storytelling made tangible.",
     },
   ];
 
@@ -54,14 +61,14 @@ const BrandCommunication = () => {
         <p className="breadcr" data-aos="fade-up">
           <Link to="/" className="breadcrumb-l">HOMEPAGE</Link>
           &nbsp; / &nbsp;
-          <Link to="/allservices" className="breadcrumb-l" data-aos="fade-up">SERVICES</Link>
+          <Link to="/allservices" className="breadcrumb-l">SERVICES</Link>
           &nbsp; / &nbsp;
-          <span className="breadcrumb-cur" data-aos="fade-up">BRAND COMMUNICATION</span>
+          <span className="breadcrumb-cur">LIFESTYLE & LUXURY</span>
         </p>
 
         <h1 className="hero-t" data-aos="fade-up">
-          Brand <span className="light-w">Communication</span> <br />
-          <span className="highlig">and</span> <span className="light-w">Advertising</span>
+          Lifestyle <span className="light-w">& Luxury</span> <br />
+          <span className="highlig">Experiences</span> <span className="light-w">Reimagined</span>
         </h1>
 
         <a href="#our-services" className="our-works-l" data-aos="fade-up">
@@ -93,11 +100,11 @@ const BrandCommunication = () => {
       <div className="portfolio-cta" data-aos="fade-up">
         <div className="cta-content" data-aos="fade-up">
           <p className="cta-subtext" data-aos="fade-up">
-            Want your brand to be heard, seen, and remembered? We craft communication that connects.
+            Luxury is in the detail — and we obsess over every one. Let’s design moments that leave a legacy.
           </p>
           <h2>
-            Let’s amplify your <strong>brand</strong> <br />
-            <span>through smart</span> storytelling.
+            Plan <strong>extraordinary</strong> <br />
+            <span>lifestyle events</span> with us.
           </h2>
           <a href="/contact" className="cta-button">
             Contact Us <span className="arrow">→</span>
@@ -110,4 +117,4 @@ const BrandCommunication = () => {
   );
 };
 
-export default BrandCommunication;
+export default LifestyleEvents;

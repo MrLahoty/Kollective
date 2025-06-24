@@ -17,6 +17,7 @@ import Brands from "./pages/services/Brands";
 import Branded from "./pages/services/Branded";
 import Website from "./pages/services/Website";
 import Max from "./pages/services/Max";
+import LifestyleEvents from "./pages/services/LifestyleEvents";
 
 const App = () => {
   const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
@@ -82,6 +83,7 @@ const App = () => {
         { path: "/branded", element: <Branded /> },
         { path: "/website", element: <Website /> },
         { path: "/max", element: <Max /> },
+        { path: "/lifestyleevents", element: <LifestyleEvents /> },
 
         { path: "/corporateEvents", element: <CorporateEvents /> },
          { path: "/largeFormateEvent", element: <LargeFormateEvent /> },
