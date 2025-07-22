@@ -5,7 +5,7 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-const AllServices = () => {
+const Allservices = () => {
   useEffect(() => {
     AOS.init({ duration: 1000, once: false, mirror: true });
   }, []);
@@ -195,4 +195,4 @@ const AllServices = () => {
   );
 };
 
-export default AllServices;
+export default Allservices;
