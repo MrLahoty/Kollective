@@ -4,10 +4,10 @@ import "aos/dist/aos.css";
 import Footer from "../../components/footer/Footer";
 import "./brand.css";
 
-import brand1 from "../../assets/DELL/DELL1.jpg";
-import brand2 from "../../assets/DELL/DELL2.jpg";
-import brand3 from "../../assets/DELL/DELL3.jpg";
-import brand4 from "../../assets/DELL/DELL4.jpg";
+import brand2 from "../../assets/DELL/DELL2.JPG";
+import brand3 from "../../assets/DELL/DELL3.JPG";
+import brand4 from "../../assets/DELL/DELL4.JPG";
+import brand1 from "../../assets/DELL/DELL1.JPG";
 import brand5 from "../../assets/5678910.jpg";
 import brand6 from "../../assets/567891011.jpg";
 import brand7 from "../../assets/56789101112.jpg";
