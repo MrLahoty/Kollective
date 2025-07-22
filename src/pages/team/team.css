@@ -146,7 +146,7 @@
 
 .member-info {
   position: absolute;
-  bottom: 100px;
+  bottom: 80px;
   left: 50%;
   transform: translate(-50%, 20px);
   color: #fff;

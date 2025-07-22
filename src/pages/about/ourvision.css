@@ -1,0 +1,175 @@
+.vision-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+  color: #000;
+  font-family: 'Outfit', sans-serif;
+  min-height: 100vh;
+}
+
+.vision-image {
+  flex: 1 1 40%;
+  max-width: 40%;
+}
+
+.vision-image img {
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+  margin-top: 170px;
+}
+
+.vision-content {
+  flex: 1 1 60%;
+  padding: 3rem;
+  box-sizing: border-box;
+}
+
+.vision-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  margin-bottom: 4rem;
+  margin-top: 125px;
+  color: #181717;
+}
+
+.vision-title .line {
+  height: 4px;
+  width: 70px;
+  background-color: #fdbf00;
+  margin-right: 1rem;
+}
+
+.vision-cards {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.card {
+  flex: 1;
+  padding: 2rem;
+  box-sizing: border-box;
+  margin: 0;
+  height: 420px; /* or adjust as needed */
+  overflow: auto; /* optional: to handle content overflow */
+}
+
+.yellow-card {
+  background-color: #f5b700;
+  color: #111;
+}
+
+.black-card {
+  background-color: #111;
+  color: white;
+}
+
+.card h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: white;
+  margin-top: 33px;
+}
+
+.card h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #111;
+  margin-top: 33px;
+}
+
+
+.card p {
+  font-size: 1.22rem;
+  line-height: 1.7;
+  margin-top: 30px;
+}
+
+/* ---------- Tablet Screens (≤ 1024px) ---------- */
+@media (max-width: 1024px) {
+
+  .vision-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .vision-image {
+    max-width: 100%;
+    flex: unset;
+    margin-top: 80px;
+  }
+
+  .vision-image img {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+  }
+
+  .vision-content {
+    padding: 2rem;
+  }
+
+  .vision-title {
+    margin-top: 60px;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    justify-content: center;
+  }
+
+  .vision-title .line {
+    width: 50px;
+    height: 3px;
+  }
+
+  .vision-cards {
+    flex-direction: column;
+  }
+
+  .card {
+    height: 340px;
+    margin-bottom: 1.5rem;
+  }
+
+  .card p{
+    margin-bottom: 50px;
+  }
+}
+
+/* ---------- Mobile Screens (≤ 600px) ---------- */
+@media (max-width: 600px) {
+
+  .vision-content {
+    padding: 1.5rem;
+  }
+
+  .vision-title {
+    font-size: 1.8rem;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 3rem;
+  }
+
+  .vision-title .line {
+    margin: 0 0 0.5rem 0;
+  }
+
+  .card h2,
+  .card h3 {
+    font-size: 1.4rem;
+    margin-top: 20px;
+  }
+
+  .card p {
+    font-size: 1.05rem;
+    margin-top: 20px;
+    line-height: 1.6;
+  }
+
+  .card {
+    padding: 1.2rem;
+  }
+}

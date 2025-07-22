@@ -1,18 +1,18 @@
 import "./team.css";
-import janeImg from "../../assets/project-1.jpg";
-import suzaneImg from "../../assets/project-2.jpg";
-import johnImg from "../../assets/project-3.jpg";
-import edwardImg from "../../assets/project-4.jpg";
+import janeImg from "../../assets/Darshan Jain_Buisness and finance head.jpg";
+import suzaneImg from "../../assets/Sonit Sharma.jpg";
+import johnImg from "../../assets/Aarti Sharma_Finance manager.jpg";
+import edwardImg from "../../assets/Esha Jain_Social media manager.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 const teamMembers = [
-  { name: "Jane Doe", image: janeImg, occupation: "Project Manager" },
-  { name: "Suzane Sparks", image: suzaneImg, occupation: "UI/UX Designer" },
-  { name: "John Peters", image: johnImg, occupation: "Full Stack Developer" },
-  { name: "Edward Palmer", image: edwardImg, occupation: "Marketing Lead" },
+  { name: "Darshan Jain", image: janeImg, occupation: "Business & Finance Head" },
+  { name: "Sonit Sharma", image: suzaneImg, occupation: "Client Servicing & Business Development" },
+  { name: "Aarti Sharma", image: johnImg, occupation: "Finance Manager" },
+  { name: "Esha Jain", image: edwardImg, occupation: "Social Media Manager" },
 ];
 
 const Team = () => {

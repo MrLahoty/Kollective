@@ -11,11 +11,39 @@
   z-index: 1000;
 }
 
+.dropdown-togglessss {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.dropdown-arrowss {
+  margin-left: 8px;
+  font-size: 1.1rem;
+}
+
+.dropdown-menuss {
+  list-style: none;
+  margin-top: 0.5rem;
+}
+
+.sub-link {
+  display: block;
+  padding: 0.4rem 0;
+  font-size: 0.95rem;
+}
+
+.nav-icons{
+  font-size: 1.5rem;
+  margin-right: 5px;
+}
+
 /* Logo */
 .nav-logo {
   display: flex;
   align-items: center;
-  margin-left: 35px;
+  margin-left: 45px;
   margin-top: -30px;
 }
 
@@ -61,6 +89,7 @@
 }
 
 .menu-logo {
+  margin-left: 20px;
   margin-bottom: 2rem;
   display: flex;
   justify-content: flex-start;
@@ -106,7 +135,7 @@
   position: relative;
   text-decoration: none;
   color: white;
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 600;
   text-align: left;
   transition: all 0.3s ease;
@@ -117,7 +146,7 @@
 /* Slide right on hover */
 .unified-link:hover {
   color: goldenrod;
-  transform: translateX(12px);
+  transform: translateX(5px);
 }
 
 /* Add a subtle underline or indicator */
@@ -158,6 +187,19 @@
 
 /* Responsive Styles */
 @media (max-width: 768px) {
+
+  .sub-link {
+    display: block;
+    font-size: 5px;
+    padding: 0.4rem 0;
+    margin-left: 20px;
+  }
+
+  .dropdown-arrowss {
+    margin-left: 8px;
+    font-size: 1rem;
+  }
+
   .nav {
     padding: 1rem;
     top: 0.5rem;
@@ -166,6 +208,10 @@
   .nav-logo {
     margin-left: 0;
     margin-top: -10px;
+  }
+
+  .nav-icons{
+    font-size: 1.2rem;
   }
 
   .logo-img {
@@ -194,7 +240,7 @@
   }
 
   .unified-link {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 
   .unified-menu ul li {

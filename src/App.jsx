@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from "react";
 import Home from "./pages/home/Home";
 import About from "./pages/about/About";
+import OurMission from "./pages/about/OurMission.jsx";
+import OurVision from "./pages/about/OurVision.jsx";
+import Founder from "./pages/about/Founder.jsx";
 import Portfolio from "./pages/portfolio/Portfolio";
 import Contact from "./pages/contact/Contact";
 import TeamDetails from "./pages/team/TeamDetails";
@@ -73,6 +76,10 @@ const App = () => {
       children: [
         { path: "/", element: <Home /> },
         { path: "/about", element: <About /> },
+        { path: "/ourmission", element: <OurMission /> },
+        { path: "/ourvision", element: <OurVision /> },
+        { path: "/founder", element: <Founder /> },
+
         { path: "/portfolio", element: <Portfolio /> },
         { path: "/contact", element: <Contact /> },
         { path: "/team-details", element: <TeamDetails /> },

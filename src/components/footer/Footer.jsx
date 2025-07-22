@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import logo from "../../assets/KOLLECTIVE EVENTS2-0111.png";
-import { NavLink } from "react-router";
+import logo from "../../assets/KOLLECTIVE EVENTS2-011.png";
+import { NavLink } from "react-router-dom";
 import "./footer.css";
 import {
   FaInstagram,
@@ -59,8 +59,8 @@ const Footer = () => {
           <h3 className="footer-title">Contact</h3>
           <ul className="footer-contact">
             <li>
-               <a href={`tel:${phoneNumber}`} className="leftFooter-link ">
-              <FaPhone /> +91 8135987175 | 8822438855
+              <a href={`tel:${phoneNumber}`} className="leftFooter-link ">
+                <FaPhone /> +91 8135987175 | 8822438855
               </a>
             </li>
             <li>
@@ -75,7 +75,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
               >
                 <FaMapMarkerAlt /> F2, Level 5, Parmeshwari Building, Chatribari
-                Road, Nr. Himatsingka House, Guwahati - 781001, Assam
+                Road, Near Himatsingka House, Guwahati - 781001, Assam
               </a>
             </li>
           </ul>
@@ -131,19 +131,19 @@ const Footer = () => {
           <h3 className="footer-title">Quick Links</h3>
           <ul className="footer-links">
             <li>
-              <a href="/">Home</a>
+              <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <a href="/about">About</a>
+              <NavLink to="/about">About</NavLink>
             </li>
             <li>
-              <a href="/services">Services</a>
+              <NavLink to="/services">Services</NavLink>
             </li>
             <li>
-              <a href="/portfolio">Portfolio</a>
+              <NavLink to="/portfolio">Portfolio</NavLink>
             </li>
             <li>
-              <a href="/contact">Contact</a>
+              <NavLink to="/contact">Contact</NavLink>
             </li>
           </ul>
         </div>

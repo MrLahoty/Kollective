@@ -1,42 +1,50 @@
 import React, { useEffect } from "react";
 import "./teamdetails.css";
-import janeImg from "../../assets/project-1.jpg";
-import suzaneImg from "../../assets/project-2.jpg";
-import johnImg from "../../assets/project-3.jpg";
-import edwardImg from "../../assets/project-4.jpg";
+import janeImgs from "../../assets/Darshan Jain_Buisness and finance head.jpg";
+import janeImgss from "../../assets/Sonit Sharma.jpg";
+import janeImgssss from "../../assets/Aarti Sharma_Finance manager.jpg";
+import janeImgsssss from "../../assets/Esha Jain_Social media manager.jpg";
+import janeImg from "../../assets/Subham Choudhury_Creative Head.jpg";
+import suzaneImg from "../../assets/Manjyoti Tiwari.jpg";
+import johnImg from "../../assets/Makbul Hussain.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 const teamMembers = [
   {
-    name: "Jane Doe",
-    role: "CEO",
-    image: janeImg,
-    bio: "Visionary leader with 15+ years in business strategy, scaling startups, and inspiring innovation.",
+    name: "DARSHAN JAIN",
+    role: "Business & Finance Head",
+    image: janeImgs,
   },
   {
-    name: "Suzane Sparks",
+    name: "SONIT SHARMA",
+    role: "Client Servicing & Business Development",
+    image: janeImgss,
+  },
+  {
+    name: "AARTI SHARMA",
     role: "Finance Manager",
-    image: suzaneImg,
-    bio: "Expert in corporate finance, budgeting, and financial analytics. Keeps everything running smoothly.",
+    image: janeImgssss,
   },
   {
-    name: "John Peters",
-    role: "Video Editor",
+    name: "ESHA JAIN",
+    role: "Social Media Manager",
+    image: janeImgsssss,
+  },
+  {
+    name: "SUBHAM CHOUDHURY",
+    role: "Graphics / 3D Designer",
+    image: janeImg,
+  },
+  {
+    name: "MANJIT TIWARI",
+    role: "Operations Manager",
+    image: suzaneImg,
+  },
+  {
+    name: "MOKBUL HUSSAIN",
+    role: "Operations Executive",
     image: johnImg,
-    bio: "Creative mind behind our video content. Skilled in Adobe Premiere and Final Cut Pro.",
-  },
-  {
-    name: "Edward Palmer",
-    role: "Creative Director",
-    image: edwardImg,
-    bio: "Crafts powerful visual identities and leads design direction across all projects.",
-  },
-  {
-    name: "Max Carter",
-    role: "Motion Designer",
-    image: suzaneImg,
-    bio: "Specialist in animation and transitions. Brings visuals to life with fluid motion design.",
   },
 ];
 
@@ -62,10 +70,6 @@ const TeamDetails = () => {
         <div className="team-info-col">
           <h3 className="team-name">{member.name}</h3>
           <p className="team-role">{member.role}</p>
-          <p className="team-bio">{member.bio}</p>
-          <p className="team-tags">
-            #leadership #design #strategy #vision #creativity
-          </p>
         </div>
       </div>
     ))}

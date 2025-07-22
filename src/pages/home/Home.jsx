@@ -1,7 +1,5 @@
 import { useEffect, useState } from "react";
-import { RiSendPlaneLine } from "react-icons/ri";
 import "./home.css";
-// import image from "../../assets/3.jpg";
 import About from "../about/About";
 import Team from "../team/Team";
 import Footer from "../../components/footer/Footer";
@@ -40,11 +38,11 @@ const Home = () => {
   useEffect(() => {
     const timers = [
       setTimeout(() => {
-        setIntroStep(4); // Directly show Kollective.com
-        setVisible(false); // Reset visibility
+        setIntroStep(4); 
+        setVisible(false); 
         setTimeout(() => setVisible(true), 50);
-      }, 100), // Slight delay for smooth entrance
-      setTimeout(() => setIntroStep(5), 2100), // Fade out intro
+      }, 100),
+      setTimeout(() => setIntroStep(5), 2100), 
     ];
     return () => timers.forEach(clearTimeout);
   }, []);
@@ -62,17 +60,12 @@ const Home = () => {
         <div className={`intro-overlay ${introStep === 5 ? "fade-out" : ""}`}>
           <h1 className="intro-text">
             <span className={`word ${visible ? "visible" : ""}`}>
-              Kollective.com
+              Kollective Events & Xperiences
             </span>
           </h1>
         </div>
       ) : (
         <section className="hero-section">
-          {/* <div
-            className="background-image"
-            style={{ backgroundImage: `url(${image})` }}
-          ></div> */}
-
           <div className="hero-content fade-in">
             <h1 className="hero-title">
               <span className="bold">Designing</span>{" "}

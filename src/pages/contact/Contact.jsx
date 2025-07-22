@@ -79,17 +79,7 @@ const Contact = () => {
             </span>
             <div>
               <h3 className="contact-title">Location</h3>
-              <p className="contact-data">North Tower, Toronto, Canada</p>
-            </div>
-          </div>
-
-          <div className="contact-card">
-            <span className="contact-icon">
-              <RiUser3Line />
-            </span>
-            <div>
-              <h3 className="contact-title">Freelancer</h3>
-              <p className="contact-data">Available Right Now</p>
+              <p className="contact-data">F2, 5th Floor,Parmeshwari Building, Chatribari,Guwahati- 781008,Assam</p>
             </div>
           </div>
 
@@ -99,7 +89,7 @@ const Contact = () => {
             </span>
             <div>
               <h3 className="contact-title">Email</h3>
-              <p className="contact-data">myprojectkaranbir123@gmail.com</p>
+              <p className="contact-data">hi@kollectivexperiential.in</p>
             </div>
           </div>
 
@@ -109,7 +99,7 @@ const Contact = () => {
             </span>
             <div>
               <h3 className="contact-title">Phone</h3>
-              <p className="contact-data">1234567890</p>
+              <p className="contact-data">+91 8822438855 | 8135987175</p>
             </div>
           </div>
         </div>
