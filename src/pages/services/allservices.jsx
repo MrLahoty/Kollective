@@ -1,3 +1,4 @@
+import React from "react";
 import { Link } from "react-router-dom";
 import "./allservices.css";
 import Footer from "../../components/footer/Footer";
@@ -5,7 +6,7 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-const Allservices = () => {
+const allservices = () => {
   useEffect(() => {
     AOS.init({ duration: 1200, once: false, mirror: true });
   }, []);
@@ -195,4 +196,4 @@ const Allservices = () => {
   );
 };
 
-export default Allservices;
+export default allservices;
