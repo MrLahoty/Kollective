@@ -73,7 +73,7 @@ const clienteleLogos = [
   marij,
 ];
 
-const clientele = () => {
+const Clientele = () => {
   return (
     <div className="clientele-marquee-section">
       <h2>
@@ -93,4 +93,4 @@ const clientele = () => {
   );
 };
 
-export default clientele;
+export default Clientele;

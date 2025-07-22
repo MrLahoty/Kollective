@@ -15,7 +15,7 @@ import LargeFormateEvent from "./pages/portfolio/LargeFormateEvent";
 import Mice from "./pages/portfolio/Mice";
 import Brand from "./pages/portfolio/Brand";
 import Lifestyle from "./pages/portfolio/Lifestyle";
-import AllServices from "./pages/services/allservices";
+import AllServices from "./pages/services/Allservices.jsx";
 import Brands from "./pages/services/Brands";
 import Branded from "./pages/services/Branded";
 import Website from "./pages/services/Website";
