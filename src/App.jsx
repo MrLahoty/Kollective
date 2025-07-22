@@ -15,7 +15,7 @@ import LargeFormateEvent from "./pages/portfolio/LargeFormateEvent";
 import Mice from "./pages/portfolio/Mice";
 import Brand from "./pages/portfolio/Brand";
 import Lifestyle from "./pages/portfolio/Lifestyle";
-import AllServices from "./pages/services/Allservices";
+import Allservices from "./pages/services/Allservices";
 import Brands from "./pages/services/Brands";
 import Branded from "./pages/services/Branded";
 import Website from "./pages/services/Website";
@@ -84,7 +84,7 @@ const App = () => {
         { path: "/contact", element: <Contact /> },
         { path: "/team-details", element: <TeamDetails /> },
         { path: "/services", element: <Services /> },
-        { path: "/allservices", element: <AllServices /> },
+        { path: "/allservices", element: <Allservices /> },
 
         { path: "/brands", element: <Brands /> },
         { path: "/branded", element: <Branded /> },
