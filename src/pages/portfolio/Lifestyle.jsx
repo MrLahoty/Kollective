@@ -10,11 +10,11 @@ import lifestyle1 from "../../assets/Sandeep _ Binita/Sandeep _ Binita (18th Dec
 import lifestyle2 from "../../assets/Sandeep _ Binita/Sandeep _ Binita (18th December 2022) - Guwahati, Assam/Sandeep Modi +Binita Modi, Vivanta (32).jpg";
 import lifestyle3 from "../../assets/Sandeep _ Binita/Sandeep _ Binita (18th December 2022) - Guwahati, Assam/Sandeep Modi +Binita Modi, Vivanta (5).jpg";
 import lifestyle4 from "../../assets/Sandeep _ Binita/Sandeep _ Binita (18th December 2022) - Guwahati, Assam/Sandeep Modi +Binita Modi, Vivanta (8).jpg";
-import lifestyle5 from "../../assets/Sandeep _ Binita/Sandeep _ Binita (18th December 2022) - Guwahati, Assam/Sandeep Modi +Binita Modi, Vivanta (98).jpg";
-import lifestyle6 from "../../assets/Sandeep _ Binita/Sandeep _ Binita (18th December 2022) - Guwahati, Assam/Sandeep Modi +Binita Modi, Vivanta (89).jpg";
+import lifestyle5 from "../../assets/Sandeep _ Binita/Sandeep _ Binita (18th December 2022) - Guwahati, Assam/Sandeep Modi +Binita Modi, Vivanta (98).JPG";
+import lifestyle6 from "../../assets/Sandeep _ Binita/Sandeep _ Binita (18th December 2022) - Guwahati, Assam/Sandeep Modi +Binita Modi, Vivanta (89).JPG";
 import lifestyle7 from "../../assets/Sandeep _ Binita/Sandeep _ Binita (18th December 2022) - Guwahati, Assam/Sandeep Modi +Binita Modi, Vivanta (119).jpg";
 import lifestyle8 from "../../assets/Sandeep _ Binita/Sandeep _ Binita (18th December 2022) - Guwahati, Assam/Sandeep Modi +Binita Modi, Vivanta (111).jpg";
-import lifestyle9 from "../../assets/Sandeep _ Binita/Sandeep _ Binita (18th December 2022) - Guwahati, Assam/Sandeep Modi +Binita Modi, Vivanta (93).jpg";
+import lifestyle9 from "../../assets/Sandeep _ Binita/Sandeep _ Binita (18th December 2022) - Guwahati, Assam/Sandeep Modi +Binita Modi, Vivanta (93).JPG";
 import lifestyle10 from "../../assets/Sandeep _ Binita/Sandeep _ Binita (18th December 2022) - Guwahati, Assam/Sandeep Modi +Binita Modi, Vivanta (103).jpg";
 import lifestyle11 from "../../assets/Sandeep _ Binita/Sandeep _ Binita (18th December 2022) - Guwahati, Assam/Sandeep Modi +Binita Modi, Vivanta (21).jpg";
 import lifestyle12 from "../../assets/Sandeep _ Binita/Sandeep _ Binita (18th December 2022) - Guwahati, Assam/Sandeep Modi +Binita Modi, Vivanta (54).jpg";
