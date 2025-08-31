@@ -1,39 +1,36 @@
 import "./clientele.css";
-import l from "../../assets/asdm-uniform-assam-skill-development-mission.jpg";
-import football from "../../assets/Assam_Football_Association.png";
-import awesomeassam from "../../assets/Awesome_Assam_Logo.png";
-import balipara from "../../assets/balipara-foundation-logo.jpg";
-import cricket from "../../assets/cricketassociation.png";
-import GauhatiTown from "../../assets/Gauhatitownclub.jpg";
-import haryanatourism from "../../assets/haryanatourism.png";
-import IndianArmy from "../../assets/Indian_Army_Insignia_circular.png";
-import IncomeTax from "../../assets/Logo_of_Income_Tax_Department_India.png";
-import MarwariYuvaManch from "../../assets/Marwariyuvamanch.jpg";
-import RoadTransport from "../../assets/Ministry_of_Road_Transport_and_Highways.svg";
-import ScienceandTechnology from "../../assets/Ministry_of_Science_and_Technology_India.svg";
-import MinistryofTourism from "../../assets/Ministry_of_Tourism_India.svg.png";
-import MinistryofYouth from "../../assets/Ministry_of_Youth_Affairs_and_Sports.svg";
-import nectar from "../../assets/nectar-ac6e3b7d.webp";
-import NEEPCO from "../../assets/NEEPCO.jpg";
-import Neramac from "../../assets/Neramac.png";
-import Siam from "../../assets/SIAM.jpg";
-import IWT from "../../assets/IWT.png";
-import Theenergy from "../../assets/The energy and resource.png";
-import ios from "../../assets/ios.webp";
-import Pernodricard from "../../assets/Pernod_Ricard_logo_2019.svg.png";
-import Toyota from "../../assets/toyota-logo-1989-download.png";
-import royalenfield from "../../assets/royal-enfield-logo-royal-enfield-icon-free-free-vector.jpg";
-import bajaj from "../../assets/Bajaj-Logo.png";
-import gettrade from "../../assets/getradecomlogo.png";
-import diageo from "../../assets/diageo.jpg";
-import macaw from "../../assets/macaw.png";
-import shyamsteel from "../../assets/shyamsteel.webp";
-import tatapower from "../../assets/Tata_Power_logo.svg.png";
-import Mayfair from "../../assets/MayFair_Logo_zzneps.avif";
-import rajasthanroyals from "../../assets/rajasthanroyals.png";
-import greatwhite from "../../assets/greatwhite.png";
-import satyamgroup from "../../assets/satyamgroup.jpg";
-import marij from "../../assets/marij.jpg";
+import l from "../../assets/Partner/asdm.png";
+import football from "../../assets/Partner/afa.png";
+import awesomeassam from "../../assets/Partner/awesome assam.png";
+import balipara from "../../assets/Partner/balipara.png";
+import cricket from "../../assets/Partner/aca.png";
+import GauhatiTown from "../../assets/Partner/gtc.png";
+import haryanatourism from "../../assets/Partner/haryana tourism.png";
+import IndianArmy from "../../assets/Partner/army.png";
+import IncomeTax from "../../assets/Partner/income tax.png";
+import MarwariYuvaManch from "../../assets/Partner/yuva manch.png";
+import MinistryofTourism from "../../assets/Partner/ministry of tour.png";
+import nectar from "../../assets/Partner/nectar.png";
+import NEEPCO from "../../assets/Partner/nepco.png";
+import Neramac from "../../assets/Partner/nermac.png";
+import Siam from "../../assets/Partner/siam.png";
+import IWT from "../../assets/Partner/iwt.png";
+import Theenergy from "../../assets/Partner/teri.png";
+import ios from "../../assets/Partner/apple.png";
+import Pernodricard from "../../assets/Partner/pernod.png";
+import Toyota from "../../assets/Partner/toyota.png";
+import royalenfield from "../../assets/Partner/royalenfield.png";
+import bajaj from "../../assets/Partner/bajaj.png";
+import gettrade from "../../assets/Partner/get.png";
+import diageo from "../../assets/Partner/diageo.png";
+import macaw from "../../assets/Partner/macau.png";
+import shyamsteel from "../../assets/Partner/syam steel.png";
+import tatapower from "../../assets/Partner/tata.png";
+import Mayfair from "../../assets/Partner/mayfair.png";
+import rajasthanroyals from "../../assets/Partner/rajasthan royals.png";
+import greatwhite from "../../assets/Partner/great white.png";
+import satyamgroup from "../../assets/Partner/satyam.png";
+import marij from "../../assets/Partner/maru.png";
 
 const clienteleLogos = [
   l,
@@ -46,10 +43,7 @@ const clienteleLogos = [
   IndianArmy,
   IncomeTax,
   MarwariYuvaManch,
-  RoadTransport,
-  ScienceandTechnology,
   MinistryofTourism,
-  MinistryofYouth,
   nectar,
   NEEPCO,
   Neramac,

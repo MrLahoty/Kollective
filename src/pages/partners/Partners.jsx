@@ -1,10 +1,10 @@
 import "./partners.css";
-import logo from "../../assets/paarambi.png";
-import lo from "../../assets/arihant.png";
-import los from "../../assets/expression360.png";
-import logos from "../../assets/mazeimages.png";
-import loss from "../../assets/efactor.png";
-import logoses from "../../assets/tridents.png";
+import logo from "../../assets/Partner/paarambi.png";
+import lo from "../../assets/Partner/arihant.png";
+import los from "../../assets/Partner/expression.png";
+import logos from "../../assets/Partner/maze.png";
+import loss from "../../assets/Partner/efactor.png";
+import logoses from "../../assets/Partner/trident.png";
 
 const partnerLogos = [
   logos, lo, los, loss, logoses, logo
